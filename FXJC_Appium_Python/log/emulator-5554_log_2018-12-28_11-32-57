@@ -1,0 +1,306 @@
+2018-12-28 03:33:02:456 - info: [Appium] Welcome to Appium v1.7.1
+2018-12-28 03:33:02:458 - info: [Appium] Non-default server args:
+2018-12-28 03:33:02:458 - info: [Appium]   port: 4700
+2018-12-28 03:33:02:459 - info: [Appium]   bootstrapPort: 4903
+2018-12-28 03:33:02:459 - info: [Appium]   sessionOverride: true
+2018-12-28 03:33:02:459 - info: [Appium]   log: E:/Appium/FXJC_Appium_Python/log/emulator-5554_log_2018-12-28_11-32-57
+2018-12-28 03:33:02:459 - info: [Appium]   udid: emulator-5554
+2018-12-28 03:33:02:459 - info: [Appium]   noReset: true
+2018-12-28 03:33:02:460 - warn: [Appium] Deprecated server args:
+2018-12-28 03:33:02:460 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"emulator-5554"}'
+2018-12-28 03:33:02:460 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2018-12-28 03:33:02:460 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-12-28 03:33:02:462 - info: [Appium]   udid: 'emulator-5554'
+2018-12-28 03:33:02:462 - info: [Appium]   noReset: true
+2018-12-28 03:33:02:541 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2018-12-28 03:33:17:476 - info: [HTTP] --> POST /wd/hub/session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}},"desiredCapabilities":{"platformName":"Android","deviceName":"emulator-5554","app":"E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":"true","newCommandTimeout":"0","chromedriverExecutable":"C:/Program Files (x86)/Appium/resources/app/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.exe"}}
+2018-12-28 03:33:17:478 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"emulator-5554","app":"E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":"true","newCommandTimeout":"0","chromedriverExecutable":"C:/Program Files (x86)/Appium/resources/app/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.exe"},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}]
+2018-12-28 03:33:17:480 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1545967997480 (11:33:17 GMT+0800 (中国标准时间))
+2018-12-28 03:33:17:483 - info: [Appium] Creating new AndroidDriver (v1.28.1) session
+2018-12-28 03:33:17:483 - info: [Appium] Capabilities:
+2018-12-28 03:33:17:484 - info: [Appium]   platformName: 'Android'
+2018-12-28 03:33:17:484 - info: [Appium]   deviceName: 'emulator-5554'
+2018-12-28 03:33:17:484 - info: [Appium]   app: 'E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk'
+2018-12-28 03:33:17:484 - info: [Appium]   appWaitActivity: 'com.mapass.example.activity.MainActivity_'
+2018-12-28 03:33:17:484 - info: [Appium]   noReset: 'true'
+2018-12-28 03:33:17:484 - info: [Appium]   newCommandTimeout: '0'
+2018-12-28 03:33:17:484 - info: [Appium]   chromedriverExecutable: 'C:/Program Files (x86)/Appium/resources/app/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.exe'
+2018-12-28 03:33:17:484 - info: [Appium]   udid: 'emulator-5554'
+2018-12-28 03:33:17:489 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2018-12-28 03:33:17:490 - warn: [BaseDriver] Capability 'newCommandTimeout' changed from string ('0') to integer (0). This may cause unexpected behavior
+2018-12-28 03:33:17:493 - info: [BaseDriver] Session created with session id: 50be5015-e5a1-46cd-ab57-31a049a68c40
+2018-12-28 03:33:17:494 - info: [debug] [AndroidDriver] Getting Java version
+2018-12-28 03:33:17:627 - info: [AndroidDriver] Java version is: 1.8.0_172
+2018-12-28 03:33:17:630 - info: [ADB] Checking whether adb is present
+2018-12-28 03:33:17:632 - info: [ADB] Using adb.exe from E:\Android\android-sdk-windows\platform-tools\adb.exe
+2018-12-28 03:33:17:632 - info: [AndroidDriver] Retrieving device list
+2018-12-28 03:33:17:633 - info: [debug] [ADB] Trying to find a connected android device
+2018-12-28 03:33:17:633 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:17:695 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:17:696 - info: [AndroidDriver] Using device: emulator-5554
+2018-12-28 03:33:17:696 - info: [ADB] Checking whether adb is present
+2018-12-28 03:33:17:699 - info: [ADB] Using adb.exe from E:\Android\android-sdk-windows\platform-tools\adb.exe
+2018-12-28 03:33:17:699 - info: [debug] [ADB] Setting device id to emulator-5554
+2018-12-28 03:33:17:700 - info: [BaseDriver] Using local app 'E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk'
+2018-12-28 03:33:17:700 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-12-28 03:33:17:700 - info: [AndroidDriver] Starting Android session
+2018-12-28 03:33:17:703 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","wait-for-device"]
+2018-12-28 03:33:17:760 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:17:809 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:17:810 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","echo","ping"]
+2018-12-28 03:33:17:881 - info: [debug] [Logcat] Starting logcat capture
+2018-12-28 03:33:17:934 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-12-28 03:33:17:935 - info: [debug] [ADB] Uninstalling and re-installing 'io.appium.settings'
+2018-12-28 03:33:17:935 - info: [debug] [ADB] Uninstalling io.appium.settings
+2018-12-28 03:33:17:936 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-12-28 03:33:17:936 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:17:995 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:17:996 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.settings"]
+2018-12-28 03:33:18:302 - info: [debug] [ADB] App is installed
+2018-12-28 03:33:18:302 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:18:352 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:18:353 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","io.appium.settings"]
+2018-12-28 03:33:18:786 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","uninstall","io.appium.settings"]
+2018-12-28 03:33:19:161 - info: [debug] [ADB] ADB command output: Success
+2018-12-28 03:33:19:161 - info: [ADB] io.appium.settings was successfully uninstalled
+2018-12-28 03:33:19:162 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-12-28 03:33:19:162 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:19:218 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:19:219 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.settings"]
+2018-12-28 03:33:19:399 - info: [debug] [ADB] App is not installed
+2018-12-28 03:33:19:399 - info: [debug] [ADB] App 'D:\nodejs\node_global\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk' not installed. Installing
+2018-12-28 03:33:19:399 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","install","D:\\nodejs\\node_global\\node_modules\\appium\\node_modules\\io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk"]
+2018-12-28 03:33:19:838 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:19:892 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:19:893 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.sdk"]
+2018-12-28 03:33:19:967 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 22
+2018-12-28 03:33:19:968 - info: [debug] [ADB] Device API level: 22
+2018-12-28 03:33:19:968 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:20:018 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:20:019 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.settings"]
+2018-12-28 03:33:20:101 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:20:153 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:20:153 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+2018-12-28 03:33:20:244 - info: [debug] [ADB] Device API level: 22
+2018-12-28 03:33:20:244 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:20:290 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:20:290 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","start","-W","-n","io.appium.settings/.Settings","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-12-28 03:33:21:299 - info: [debug] [ADB] Device API level: 22
+2018-12-28 03:33:21:300 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:21:354 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:21:354 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","settings","put","secure","mock_location","1"]
+2018-12-28 03:33:21:858 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-12-28 03:33:21:859 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","install","D:\\nodejs\\node_global\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2018-12-28 03:33:22:442 - info: [ADB] Getting device platform version
+2018-12-28 03:33:22:442 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:22:494 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:22:494 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.release"]
+2018-12-28 03:33:22:569 - info: [debug] [ADB] Current device property 'ro.build.version.release': 5.1.1
+2018-12-28 03:33:22:569 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:22:646 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:22:646 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","wm","size"]
+2018-12-28 03:33:23:022 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:23:075 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:23:076 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.model"]
+2018-12-28 03:33:23:171 - info: [debug] [ADB] Current device property 'ro.product.model': oppo a37m
+2018-12-28 03:33:23:171 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:23:223 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:23:223 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.manufacturer"]
+2018-12-28 03:33:23:314 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': oppo
+2018-12-28 03:33:23:315 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-12-28 03:33:23:316 - info: [ADB] Checking whether aapt is present
+2018-12-28 03:33:23:318 - info: [ADB] Using aapt.exe from E:\Android\android-sdk-windows\build-tools\27.0.3\aapt.exe
+2018-12-28 03:33:23:318 - info: [ADB] Extracting package and launch activity from manifest
+2018-12-28 03:33:23:349 - info: [debug] [ADB] badging package: com.cs_credit_bank
+2018-12-28 03:33:23:349 - info: [debug] [ADB] badging act: com.alipay.mobile.quinox.LauncherActivity
+2018-12-28 03:33:23:349 - info: [debug] [AndroidDriver] Parsed package and activity are: com.cs_credit_bank/com.alipay.mobile.quinox.LauncherActivity
+2018-12-28 03:33:23:654 - info: [AndroidDriver] Remote apk path is /data/local/tmp/27f1544eb12675643b16872244b529fb.apk
+2018-12-28 03:33:23:655 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:23:727 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:23:727 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ls","/data/local/tmp/27f1544eb12675643b16872244b529fb.apk"]
+2018-12-28 03:33:23:809 - info: [debug] [AndroidDriver] Checking if app is installed
+2018-12-28 03:33:23:809 - info: [debug] [ADB] Getting install status for com.cs_credit_bank
+2018-12-28 03:33:23:809 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:23:860 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:23:860 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","com.cs_credit_bank"]
+2018-12-28 03:33:24:098 - info: [debug] [ADB] App is installed
+2018-12-28 03:33:24:099 - info: [debug] [AndroidDriver] Extracting strings from apk E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk null C:\Users\86962\AppData\Local\Temp\com.cs_credit_bank
+2018-12-28 03:33:24:099 - info: [debug] [ADB] Extracting strings for language: default
+2018-12-28 03:33:24:099 - info: [debug] [ADB] Device API level: 22
+2018-12-28 03:33:24:100 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:24:149 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:24:149 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","persist.sys.language"]
+2018-12-28 03:33:24:218 - info: [debug] [ADB] Current device property 'persist.sys.language': zh
+2018-12-28 03:33:24:815 - info: [debug] [ADB] No strings.xml for language 'zh', getting default strings.xml
+2018-12-28 03:33:25:424 - info: [debug] [ADB] Reading strings from converted strings.json
+2018-12-28 03:33:25:426 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","C:\\Users\\86962\\AppData\\Local\\Temp\\com.cs_credit_bank\\strings.json","/data/local/tmp"]
+2018-12-28 03:33:25:504 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-12-28 03:33:25:505 - info: [debug] [ADB] Forwarding system: 4903 to device: 4724
+2018-12-28 03:33:25:505 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","forward","tcp:4903","tcp:4724"]
+2018-12-28 03:33:25:516 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-12-28 03:33:25:517 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-12-28 03:33:25:517 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-12-28 03:33:25:517 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-12-28 03:33:25:517 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","D:\\nodejs\\node_global\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2018-12-28 03:33:25:614 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-12-28 03:33:25:615 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-12-28 03:33:25:615 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:25:680 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:25:681 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+2018-12-28 03:33:25:756 - info: [debug] [ADB] Attempting to kill process 5264
+2018-12-28 03:33:25:756 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:25:806 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:25:806 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","kill","-0",5264]
+2018-12-28 03:33:25:867 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:25:930 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:25:931 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","kill",5264]
+2018-12-28 03:33:26:305 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:26:369 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:26:370 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","kill",5264]
+2018-12-28 03:33:26:751 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:26:818 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:26:818 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","kill",5264]
+2018-12-28 03:33:26:919 - warn: [ADB] Cannot kill process 5264 in 1000 ms. Trying to force kill...
+2018-12-28 03:33:26:919 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:26:990 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:26:991 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","kill","-9",5264]
+2018-12-28 03:33:27:085 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-12-28 03:33:27:085 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.cs_credit_bank","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-12-28 03:33:27:548 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-12-28 03:33:27:551 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-12-28 03:33:27:557 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-12-28 03:33:27:557 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:27:572 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-12-28 03:33:27:617 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:27:617 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","window"]
+2018-12-28 03:33:27:710 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-12-28 03:33:27:711 - info: [debug] [ADB] Device API level: 22
+2018-12-28 03:33:27:711 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:27:778 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:27:778 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","start","-W","-n","com.cs_credit_bank/com.alipay.mobile.quinox.LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-12-28 03:33:29:892 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.cs_credit_bank' and activity: 'com.mapass.example.activity.MainActivity_' to be focused
+2018-12-28 03:33:29:892 - info: [debug] [ADB] Possible activities, to be checked: 'com.mapass.example.activity.MainActivity_'
+2018-12-28 03:33:29:894 - info: [debug] [ADB] Getting focused package and activity
+2018-12-28 03:33:29:894 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:29:948 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:29:948 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","window","windows"]
+2018-12-28 03:33:30:114 - info: [debug] [ADB] Found package: 'com.cs_credit_bank' and fully qualified activity name : 'com.mapass.example.activity.MainActivity_'
+2018-12-28 03:33:30:116 - info: [Appium] New AndroidDriver session created successfully, session 50be5015-e5a1-46cd-ab57-31a049a68c40 added to master session list
+2018-12-28 03:33:30:116 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1545968010116 (11:33:30 GMT+0800 (中国标准时间))
+2018-12-28 03:33:30:116 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","app":"E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":true,"newCommandTimeout":0,"chromedriverExecutable":"C:/Program Files (x86)/Appium/resources/app/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.exe","udid":"emulator-5554"},"platformName":"Android","deviceName":"emulator-5554","app":"E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":true,"newCommandTimeout":0,"chromedriverExecutable":"C:/Program Files (x86)/Appium/resources/app/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.ex...
+2018-12-28 03:33:30:120 - info: [HTTP] <-- POST /wd/hub/session 200 12642 ms - 1388 
+2018-12-28 03:33:40:133 - info: [HTTP] --> GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/screenshot {}
+2018-12-28 03:33:40:135 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["50be5015-e5a1-46cd-ab57-31a049a68c40"]
+2018-12-28 03:33:40:137 - info: [debug] [ADB] Device API level: 22
+2018-12-28 03:33:40:954 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:33:41:022 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:33:41:023 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-28 03:33:41:320 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBCXyU9b324e//mSeZrCSQCIIBEUMQsAhqXXCpAakeERdeRbRqoa0ita2nqG0RFLVqW0BFVGraCuJaEY4fBaselbqCWJDIkUUQ0BDZA4GQPTO/lwlGQkhgwCBB7utyth0iIiIiIhIVDxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkah4iIiIiIhI1DxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkah4iIiIiIhI1DxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkah4iIiIiIhI1DxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkah4iIiIiIhI1DxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkah4iIiIiIhI1DxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkah4iIiIiIhI1DxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkaj4iIiIiIk1ISUkJ+fn5LF26lNqysrLIyMggISGBg8lHRERERKQJmDVrFp988gm5ubnsSffu3enevTunn346B0Pgzu0QETlMTJkyhSeeeIJwOExmZia1rV69muTkZJqyIUOGMHbsWLp06UJGRgZ7c9VVVzF+/HiOPfZYjj76aL6tzZs388477zB16lQef/xxjjvuONLT06lPeXk5Y8eOpV27dqSkpCAi0pBVq1Yxfvx43nvvPdauXUtE...
+2018-12-28 03:33:41:328 - info: [HTTP] <-- GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/screenshot 200 1194 ms - 861958 
+2018-12-28 03:33:41:362 - info: [HTTP] --> POST /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/element {"using":"id","value":"com.cgb.android.launcher:id/login_text_view","sessionId":"50be5015-e5a1-46cd-ab57-31a049a68c40"}
+2018-12-28 03:33:41:362 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_text_view","50be5015-e5a1-46cd-ab57-31a049a68c40"]
+2018-12-28 03:33:41:363 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-28 03:33:41:363 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-28 03:33:41:364 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-28 03:33:41:365 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_text_view","context":"","multiple":false}}
+2018-12-28 03:33:41:369 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_text_view","context":"","multiple":false}}
+2018-12-28 03:33:41:372 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-28 03:33:41:372 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-28 03:33:41:373 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_text_view' using 'ID' with the contextId: '' multiple: false
+2018-12-28 03:33:41:374 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_text_view]
+2018-12-28 03:33:41:380 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-12-28 03:33:41:382 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_text_view' using 'ID' with the contextId: '' multiple: false
+2018-12-28 03:33:41:383 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_text_view]
+2018-12-28 03:33:41:459 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-12-28 03:33:41:460 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-28 03:33:41:463 - info: [HTTP] <-- POST /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/element 500 101 ms - 164 
+2018-12-28 03:34:01:496 - info: [HTTP] --> POST /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/element {"using":"id","value":"com.cgb.android.launcher:id/login_user_edt","sessionId":"50be5015-e5a1-46cd-ab57-31a049a68c40"}
+2018-12-28 03:34:01:496 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_user_edt","50be5015-e5a1-46cd-ab57-31a049a68c40"]
+2018-12-28 03:34:01:497 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-28 03:34:01:497 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-28 03:34:01:497 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-28 03:34:01:497 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_user_edt","context":"","multiple":false}}
+2018-12-28 03:34:01:499 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_user_edt","context":"","multiple":false}}
+2018-12-28 03:34:01:499 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-28 03:34:01:499 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-28 03:34:01:500 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_user_edt' using 'ID' with the contextId: '' multiple: false
+2018-12-28 03:34:01:500 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_user_edt]
+2018-12-28 03:34:01:524 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-12-28 03:34:01:529 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_user_edt' using 'ID' with the contextId: '' multiple: false
+2018-12-28 03:34:01:529 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_user_edt]
+2018-12-28 03:34:01:558 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-12-28 03:34:01:559 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-28 03:34:01:562 - info: [HTTP] <-- POST /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/element 500 65 ms - 164 
+2018-12-28 03:34:01:573 - info: [HTTP] --> POST /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/element {"using":"id","value":"com.cgb.android.launcher:id/login_password","sessionId":"50be5015-e5a1-46cd-ab57-31a049a68c40"}
+2018-12-28 03:34:01:574 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_password","50be5015-e5a1-46cd-ab57-31a049a68c40"]
+2018-12-28 03:34:01:574 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-28 03:34:01:574 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-28 03:34:01:574 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-28 03:34:01:575 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_password","context":"","multiple":false}}
+2018-12-28 03:34:01:594 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_password","context":"","multiple":false}}
+2018-12-28 03:34:01:595 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-28 03:34:01:595 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-28 03:34:01:595 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_password' using 'ID' with the contextId: '' multiple: false
+2018-12-28 03:34:01:595 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_password]
+2018-12-28 03:34:01:610 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-12-28 03:34:01:614 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_password' using 'ID' with the contextId: '' multiple: false
+2018-12-28 03:34:01:614 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_password]
+2018-12-28 03:34:01:624 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-12-28 03:34:01:624 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-28 03:34:01:626 - info: [HTTP] <-- POST /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/element 500 52 ms - 164 
+2018-12-28 03:34:01:638 - info: [HTTP] --> GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/screenshot {}
+2018-12-28 03:34:01:638 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["50be5015-e5a1-46cd-ab57-31a049a68c40"]
+2018-12-28 03:34:01:638 - info: [debug] [ADB] Device API level: 22
+2018-12-28 03:34:02:447 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:34:02:517 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:34:02:517 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-28 03:34:02:842 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBCXyU9b324e//mSeZrCSQCIIBEUMQsAhqXXCpAakeERdeRbRqoa0ita2nqG0RFLVqW0BFVGraCuJaEY4fBaselbqCWJDIkUUQ0BDZA4GQPTO/lwlGQkhgwCBB7utyth0iIiIiIhIVDxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkah4iIiIiIhI1DxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkah4iIiIiIhI1DxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkah4iIiIiIhI1DxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkah4iIiIiIhI1DxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkah4iIiIiIhI1DxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkah4iIiIiIhI1DxERERERiZqHiIiIiIhEzUNERERERKLmISIiIiIiUfMQEREREZGoeYiIiIiISNQ8REREREQkaj4iIiIiIk1ISUkJ+fn5LF26lNqysrLIyMggISGBg8lHRERERKQJmDVrFp988gm5ubnsSffu3enevTunn346B0Pgzu0QETlMTJkyhSeeeIJwOExmZia1rV69muTkZJqyIUOGMHbsWLp06UJGRgZ7c9VVVzF+/HiOPfZYjj76aL6tzZs388477zB16lQef/xxjjvuONLT06lPeXk5Y8eOpV27dqSkpCAi0pBVq1Yxfvx43nvvPdauXUtE...
+2018-12-28 03:34:02:849 - info: [HTTP] <-- GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/screenshot 200 1211 ms - 858038 
+2018-12-28 03:34:02:886 - info: [HTTP] --> GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/screenshot {}
+2018-12-28 03:34:02:886 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["50be5015-e5a1-46cd-ab57-31a049a68c40"]
+2018-12-28 03:34:02:887 - info: [debug] [ADB] Device API level: 22
+2018-12-28 03:34:03:610 - info: [debug] [ADB] Getting connected devices...
+2018-12-28 03:34:03:678 - info: [debug] [ADB] 1 device(s) connected
+2018-12-28 03:34:03:678 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-28 03:34:03:929 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC3zWddn48c/1/d07MIaAQxEcaDjGyRAPecBDDiR9RDzwUkBTg0qBqPwHWiEoamgFqIhKrhLEYyI8vhRNfRTyCGIok0cOgmCOxXmKAhvb7t/3+nP/9mxsY4MbBKG63m/RHTDGGGOMMcYkxWGMMcYYY4xJmsMYY4wxxhiTNIcxxhhjjDEmaQ5jjDHGGGNM0hzGGGOMMcaYpDmMMcYYY4wxSXMYY4wxxhhjkuYwxhhjjDHGJM1hjDHGGGOMSZrDGGOMMcYYkzSHMcYYY4wxJmkOY4wxxhhjTNIcxhhjjDHGmKQ5jDHGGGOMMUlzGGOMMcYYY5LmMMYYY4wxxiTNYYwxxhhjjEmawxhjjDHGGJM0hzHGGGOMMSZpDmOMMcYYY0zSHMYYY4wxxpikOYwxxhhjjDFJcxhjjDHGGGOS5jDGGGOMMcYkzWGMMcYYY4xJmsMYY4wxxhiTNIcxxhhjjDEmaQ5jjDHGGGNM0hzGGGOMMcaYpDmMMcYYY4wxSXMYY4wxxhhjkuYwxhhjjDHGJM1hjDHGGGOMSZrDGGOMMcYYkzSHMcYYY4wxJmkOY4wxxhhjTNIcxhhjjDHGmKQ5jDHGGGOMMUlzGGOMMcYYY5LmMMYYY4wxxiTNYYwxxhhjjEmawxhjjDHGGJM0hzHGGGOMMSZpDmOMMcYYY0zSHMYYY4wxxpikOYwxxhhjjDFJcxhjjDHGGGOS5jDGGGOMMcYkzWGMMcYYY4xJmsMYY4wxxhiTNIcxxhhjjDEmaQ5jjDHGGGNM0hzGGGOMMcaYpDmMMcYYY4wxSXMYY4wxxhhjkhbDGGOMMcaYQ0hJSQlFRUUsX76cmnJzc8nOziYjI4ODKYYxxhhjjDGHgLlz5/Lhhx9SUFDA7nTr1o1u3bpxxhlncDAEt+2AMcb8h5g+fTqPPPII3ntycnKoac2aNTRp0oRD2eDBg5kwYQKdO3cmOzub...
+2018-12-28 03:34:03:936 - info: [HTTP] <-- GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/screenshot 200 1050 ms - 937178 
+2018-12-28 03:34:03:994 - info: [HTTP] --> GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/window/current/size {}
+2018-12-28 03:34:03:995 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","50be5015-e5a1-46cd-ab57-31a049a68c40"]
+2018-12-28 03:34:03:995 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-28 03:34:03:997 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-28 03:34:03:997 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-28 03:34:03:998 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-28 03:34:04:008 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-28 03:34:04:009 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-28 03:34:04:009 - info: [HTTP] <-- GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/window/current/size 200 14 ms - 99 
+2018-12-28 03:34:04:010 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-28 03:34:04:021 - info: [HTTP] --> GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/window/current/size {}
+2018-12-28 03:34:04:022 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","50be5015-e5a1-46cd-ab57-31a049a68c40"]
+2018-12-28 03:34:04:022 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-28 03:34:04:023 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-28 03:34:04:024 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-28 03:34:04:024 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-28 03:34:04:025 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-28 03:34:04:025 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-28 03:34:04:026 - info: [HTTP] <-- GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/window/current/size 200 4 ms - 99 
+2018-12-28 03:34:04:026 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-28 03:34:04:221 - info: [HTTP] --> GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/window/current/size {}
+2018-12-28 03:34:04:221 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","50be5015-e5a1-46cd-ab57-31a049a68c40"]
+2018-12-28 03:34:04:222 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-28 03:34:04:223 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-28 03:34:04:223 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-28 03:34:04:224 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-28 03:34:04:225 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-28 03:34:04:225 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-28 03:34:04:226 - info: [HTTP] <-- GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/window/current/size 200 4 ms - 99 
+2018-12-28 03:34:04:226 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-28 03:34:04:237 - info: [HTTP] --> GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/window/current/size {}
+2018-12-28 03:34:04:237 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","50be5015-e5a1-46cd-ab57-31a049a68c40"]
+2018-12-28 03:34:04:238 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-28 03:34:04:239 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-28 03:34:04:239 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-28 03:34:04:239 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-28 03:34:04:240 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-28 03:34:04:240 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-28 03:34:04:241 - info: [HTTP] <-- GET /wd/hub/session/50be5015-e5a1-46cd-ab57-31a049a68c40/window/current/size 200 4 ms - 99 
+2018-12-28 03:34:04:242 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
