@@ -1,0 +1,200 @@
+2019-04-17 08:47:56:920 - info: [Appium] Welcome to Appium v1.7.1
+2019-04-17 08:47:56:922 - info: [Appium] Non-default server args:
+2019-04-17 08:47:56:922 - info: [Appium]   port: 4700
+2019-04-17 08:47:56:922 - info: [Appium]   bootstrapPort: 4900
+2019-04-17 08:47:56:922 - info: [Appium]   sessionOverride: true
+2019-04-17 08:47:56:923 - info: [Appium]   log: ../log/emulator-5554_log_2019-04-17_16-47-52
+2019-04-17 08:47:56:923 - info: [Appium]   udid: emulator-5554
+2019-04-17 08:47:56:923 - info: [Appium]   noReset: true
+2019-04-17 08:47:56:923 - warn: [Appium] Deprecated server args:
+2019-04-17 08:47:56:923 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"emulator-5554"}'
+2019-04-17 08:47:56:923 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-04-17 08:47:56:924 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-04-17 08:47:56:925 - info: [Appium]   udid: 'emulator-5554'
+2019-04-17 08:47:56:925 - info: [Appium]   noReset: true
+2019-04-17 08:47:56:979 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2019-04-17 08:48:12:133 - info: [HTTP] --> POST /wd/hub/session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}},"desiredCapabilities":{"platformName":"Android","deviceName":"emulator-5554","app":"../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":"true","newCommandTimeout":"0"}}
+2019-04-17 08:48:12:134 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"emulator-5554","app":"../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":"true","newCommandTimeout":"0"},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}]
+2019-04-17 08:48:12:135 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1555490892135 (16:48:12 GMT+0800 (中国标准时间))
+2019-04-17 08:48:12:138 - info: [Appium] Creating new AndroidDriver (v1.28.1) session
+2019-04-17 08:48:12:138 - info: [Appium] Capabilities:
+2019-04-17 08:48:12:138 - info: [Appium]   platformName: 'Android'
+2019-04-17 08:48:12:138 - info: [Appium]   deviceName: 'emulator-5554'
+2019-04-17 08:48:12:138 - info: [Appium]   app: '../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk'
+2019-04-17 08:48:12:138 - info: [Appium]   appWaitActivity: 'com.mapass.example.activity.MainActivity_'
+2019-04-17 08:48:12:139 - info: [Appium]   noReset: 'true'
+2019-04-17 08:48:12:139 - info: [Appium]   newCommandTimeout: '0'
+2019-04-17 08:48:12:139 - info: [Appium]   udid: 'emulator-5554'
+2019-04-17 08:48:12:144 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2019-04-17 08:48:12:144 - warn: [BaseDriver] Capability 'newCommandTimeout' changed from string ('0') to integer (0). This may cause unexpected behavior
+2019-04-17 08:48:12:147 - info: [BaseDriver] Session created with session id: 7bfe01e6-6df3-4d1c-b3b5-2b130ed8b4e9
+2019-04-17 08:48:12:148 - info: [debug] [AndroidDriver] Getting Java version
+2019-04-17 08:48:12:311 - info: [AndroidDriver] Java version is: 1.8.0_172
+2019-04-17 08:48:12:313 - info: [ADB] Checking whether adb is present
+2019-04-17 08:48:12:315 - info: [ADB] Using adb.exe from E:\Android\android-sdk-windows\platform-tools\adb.exe
+2019-04-17 08:48:12:315 - info: [AndroidDriver] Retrieving device list
+2019-04-17 08:48:12:316 - info: [debug] [ADB] Trying to find a connected android device
+2019-04-17 08:48:12:316 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:12:400 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:12:401 - info: [AndroidDriver] Using device: emulator-5554
+2019-04-17 08:48:12:402 - info: [ADB] Checking whether adb is present
+2019-04-17 08:48:12:404 - info: [ADB] Using adb.exe from E:\Android\android-sdk-windows\platform-tools\adb.exe
+2019-04-17 08:48:12:404 - info: [debug] [ADB] Setting device id to emulator-5554
+2019-04-17 08:48:12:404 - info: [BaseDriver] Using local app '../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk'
+2019-04-17 08:48:12:405 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2019-04-17 08:48:12:406 - info: [AndroidDriver] Starting Android session
+2019-04-17 08:48:12:410 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","wait-for-device"]
+2019-04-17 08:48:12:498 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:12:590 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:12:590 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","echo","ping"]
+2019-04-17 08:48:12:679 - info: [debug] [Logcat] Starting logcat capture
+2019-04-17 08:48:12:778 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2019-04-17 08:48:12:778 - info: [debug] [ADB] Uninstalling and re-installing 'io.appium.settings'
+2019-04-17 08:48:12:779 - info: [debug] [ADB] Uninstalling io.appium.settings
+2019-04-17 08:48:12:779 - info: [debug] [ADB] Getting install status for io.appium.settings
+2019-04-17 08:48:12:779 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:12:885 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:12:885 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.settings"]
+2019-04-17 08:48:13:172 - info: [debug] [ADB] App is installed
+2019-04-17 08:48:13:172 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:13:260 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:13:260 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","io.appium.settings"]
+2019-04-17 08:48:13:670 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","uninstall","io.appium.settings"]
+2019-04-17 08:48:14:003 - info: [debug] [ADB] ADB command output: Success
+2019-04-17 08:48:14:003 - info: [ADB] io.appium.settings was successfully uninstalled
+2019-04-17 08:48:14:004 - info: [debug] [ADB] Getting install status for io.appium.settings
+2019-04-17 08:48:14:004 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:14:112 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:14:113 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.settings"]
+2019-04-17 08:48:14:320 - info: [debug] [ADB] App is not installed
+2019-04-17 08:48:14:320 - info: [debug] [ADB] App 'D:\nodejs\node_global\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk' not installed. Installing
+2019-04-17 08:48:14:321 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","install","D:\\nodejs\\node_global\\node_modules\\appium\\node_modules\\io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk"]
+2019-04-17 08:48:14:712 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:14:804 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:14:805 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.sdk"]
+2019-04-17 08:48:14:902 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 22
+2019-04-17 08:48:14:902 - info: [debug] [ADB] Device API level: 22
+2019-04-17 08:48:14:902 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:14:993 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:14:993 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.settings"]
+2019-04-17 08:48:15:097 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:15:192 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:15:193 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+2019-04-17 08:48:15:300 - info: [debug] [ADB] Device API level: 22
+2019-04-17 08:48:15:300 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:15:393 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:15:394 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","start","-W","-n","io.appium.settings/.Settings","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2019-04-17 08:48:16:131 - info: [debug] [ADB] Device API level: 22
+2019-04-17 08:48:16:131 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:16:228 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:16:228 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","settings","put","secure","mock_location","1"]
+2019-04-17 08:48:16:614 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2019-04-17 08:48:16:614 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","install","D:\\nodejs\\node_global\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2019-04-17 08:48:16:908 - info: [ADB] Getting device platform version
+2019-04-17 08:48:16:908 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:17:005 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:17:005 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.release"]
+2019-04-17 08:48:17:116 - info: [debug] [ADB] Current device property 'ro.build.version.release': 5.1.1
+2019-04-17 08:48:17:116 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:17:227 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:17:227 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","wm","size"]
+2019-04-17 08:48:17:613 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:17:694 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:17:694 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.model"]
+2019-04-17 08:48:17:798 - info: [debug] [ADB] Current device property 'ro.product.model': oppo a37m
+2019-04-17 08:48:17:798 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:17:883 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:17:883 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.manufacturer"]
+2019-04-17 08:48:17:982 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': oppo
+2019-04-17 08:48:17:983 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2019-04-17 08:48:17:983 - info: [ADB] Checking whether aapt is present
+2019-04-17 08:48:17:985 - info: [ADB] Using aapt.exe from E:\Android\android-sdk-windows\build-tools\27.0.3\aapt.exe
+2019-04-17 08:48:17:985 - info: [ADB] Extracting package and launch activity from manifest
+2019-04-17 08:48:18:076 - info: [debug] [ADB] badging package: com.cs_credit_bank
+2019-04-17 08:48:18:076 - info: [debug] [ADB] badging act: com.alipay.mobile.quinox.LauncherActivity
+2019-04-17 08:48:18:076 - info: [debug] [AndroidDriver] Parsed package and activity are: com.cs_credit_bank/com.alipay.mobile.quinox.LauncherActivity
+2019-04-17 08:48:18:486 - info: [AndroidDriver] Remote apk path is /data/local/tmp/9d3b8c3d1359cb54dc783e80d947573b.apk
+2019-04-17 08:48:18:487 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:18:608 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:18:609 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ls","/data/local/tmp/9d3b8c3d1359cb54dc783e80d947573b.apk"]
+2019-04-17 08:48:18:705 - info: [debug] [AndroidDriver] Checking if app is installed
+2019-04-17 08:48:18:705 - info: [debug] [ADB] Getting install status for com.cs_credit_bank
+2019-04-17 08:48:18:705 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:18:799 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:18:799 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","com.cs_credit_bank"]
+2019-04-17 08:48:18:980 - info: [debug] [ADB] App is installed
+2019-04-17 08:48:18:981 - info: [debug] [AndroidDriver] Extracting strings from apk ../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk null C:\Users\86962\AppData\Local\Temp\com.cs_credit_bank
+2019-04-17 08:48:18:981 - info: [debug] [ADB] Extracting strings for language: default
+2019-04-17 08:48:18:981 - info: [debug] [ADB] Device API level: 22
+2019-04-17 08:48:18:981 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:19:063 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:19:063 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","persist.sys.language"]
+2019-04-17 08:48:19:173 - info: [debug] [ADB] Current device property 'persist.sys.language': zh
+2019-04-17 08:48:20:177 - info: [debug] [ADB] No strings.xml for language 'zh', getting default strings.xml
+2019-04-17 08:48:21:230 - info: [debug] [ADB] Reading strings from converted strings.json
+2019-04-17 08:48:21:232 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","C:\\Users\\86962\\AppData\\Local\\Temp\\com.cs_credit_bank\\strings.json","/data/local/tmp"]
+2019-04-17 08:48:21:350 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2019-04-17 08:48:21:351 - info: [debug] [ADB] Forwarding system: 4900 to device: 4724
+2019-04-17 08:48:21:351 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","forward","tcp:4900","tcp:4724"]
+2019-04-17 08:48:21:419 - info: [debug] [UiAutomator] Starting UiAutomator
+2019-04-17 08:48:21:420 - info: [debug] [UiAutomator] Moving to state 'starting'
+2019-04-17 08:48:21:420 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2019-04-17 08:48:21:420 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-04-17 08:48:21:421 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","D:\\nodejs\\node_global\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2019-04-17 08:48:21:553 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2019-04-17 08:48:21:553 - info: [debug] [ADB] Getting all processes with uiautomator
+2019-04-17 08:48:21:553 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:21:643 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:21:643 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+2019-04-17 08:48:21:769 - info: [ADB] No uiautomator process found to kill, continuing...
+2019-04-17 08:48:21:769 - info: [debug] [UiAutomator] Starting UIAutomator
+2019-04-17 08:48:21:769 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.cs_credit_bank","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-04-17 08:48:22:218 - info: [debug] [UiAutomator] Moving to state 'online'
+2019-04-17 08:48:22:220 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2019-04-17 08:48:22:220 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-04-17 08:48:22:223 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2019-04-17 08:48:22:224 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:22:286 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-04-17 08:48:22:336 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:22:336 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","window"]
+2019-04-17 08:48:22:453 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2019-04-17 08:48:22:453 - info: [debug] [ADB] Device API level: 22
+2019-04-17 08:48:22:455 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:22:542 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:22:542 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","start","-W","-n","com.cs_credit_bank/com.alipay.mobile.quinox.LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2019-04-17 08:48:24:776 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.cs_credit_bank' and activity: 'com.mapass.example.activity.MainActivity_' to be focused
+2019-04-17 08:48:24:776 - info: [debug] [ADB] Possible activities, to be checked: 'com.mapass.example.activity.MainActivity_'
+2019-04-17 08:48:24:777 - info: [debug] [ADB] Getting focused package and activity
+2019-04-17 08:48:24:777 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:24:874 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:24:874 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","window","windows"]
+2019-04-17 08:48:25:054 - info: [debug] [ADB] Found package: 'com.cs_credit_bank' and fully qualified activity name : 'com.mapass.example.activity.MainActivity_'
+2019-04-17 08:48:25:055 - info: [Appium] New AndroidDriver session created successfully, session 7bfe01e6-6df3-4d1c-b3b5-2b130ed8b4e9 added to master session list
+2019-04-17 08:48:25:055 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1555490905055 (16:48:25 GMT+0800 (中国标准时间))
+2019-04-17 08:48:25:056 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","app":"../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":true,"newCommandTimeout":0,"udid":"emulator-5554"},"platformName":"Android","deviceName":"emulator-5554","app":"../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":true,"newCommandTimeout":0,"udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"5.1.1","deviceScreenSize":"1280x720","deviceModel":"oppo a37m","deviceManufacturer":"oppo","appPackage":"com.cs_credit_bank","appWaitPackage":"com.cs_credit_bank","appActivity":"com.alipay.mobile.quinox.LauncherActivity"}
+2019-04-17 08:48:25:060 - info: [HTTP] <-- POST /wd/hub/session 200 12924 ms - 1028 
+2019-04-17 08:48:45:064 - info: [HTTP] --> GET /wd/hub/session/7bfe01e6-6df3-4d1c-b3b5-2b130ed8b4e9/screenshot {}
+2019-04-17 08:48:45:066 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["7bfe01e6-6df3-4d1c-b3b5-2b130ed8b4e9"]
+2019-04-17 08:48:45:068 - info: [debug] [ADB] Device API level: 22
+2019-04-17 08:48:46:055 - info: [debug] [ADB] Getting connected devices...
+2019-04-17 08:48:46:179 - info: [debug] [ADB] 1 device(s) connected
+2019-04-17 08:48:46:180 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2019-04-17 08:48:46:590 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC6DXBXkw/s/z5XBVEES5KIh3RE28pJh5KW/lKmuaVrYsaysrq7nKeufaKm3Lttrmu7fssmkXKzVzWa2U1LJ04gVFU0S8oSigKMhFQOA8//xtO7+d/wE5Iqjl8/nEDp/NVEoppZRSSumVRimllFJKKaXXGqWUUkoppZRea5RSSimllFJ6rVFKKaWUUkrptUYppZRSSiml1zqsp7s/5Xmx4xlKKaWUUkp50ehQSimllFJe8s57O9sM082DCznjMu5+VPlfOpRSSimlvMRNGMWEkUwYya6j9HDHXKbPY/o8ps/1B2mbYWwzTDeBAR3K/0+HUkoppZSXoAmjOGYPjhjPmKGe0aRxusxeyOQZ/PBWps+1QXU0TBhJRx9rtWo10+exqtNzct7b2WaYLqOH6GHUEL5yPCtXa3lwIe/8jpe8DqWUUkopLyGTxvHhQ5g0znoZM5STJnHSJKbM4uxfMWWWZ2XCKBY+yZxFunQ07DWGwQOs06pk+lzPyTbD2GaYZ9S3D6OH6BLK0zqUUkoppbwEjBnK6UdyxHgbzKRxnH8ik2fwucuZvdA6DR3I6CGMHqJlziIte2zF4AF6ZWCH8iwM7MsOW9CZ3PUIqzo9Jx1KKaWUUv7ATRrHV45nyAAbxRHjmTSO91/IlFme0cJlTJ/LhFFMGKVlziLuepS9x9DRxwvi9jlcN4ulK3SzzzbsM5YBHTaYd+7Hxw7V8tPb+eSPrZd37sfHDtXy09v55I91M2Yopx/JQTswoEPLk08xeQZ/O5nHllovHUoppZRS/sBNn0eEjSqC6fP0ypxFWiaMYsIoLXMWMXU2e4+ho4/n3XWzOP9GFi3XZbvhHLkLfRsbzJihnHIQA/tq6d9hvYwZyikHMbCvlv4dutmkH//6NnbYQsuylTTBoH688WVsuznH/pv10iillFJK+QO3aDknfMtGdcK3WLRcr81ZxMIntUwY...
+2019-04-17 08:48:46:605 - info: [HTTP] <-- GET /wd/hub/session/7bfe01e6-6df3-4d1c-b3b5-2b130ed8b4e9/screenshot 200 1536 ms - 1010226 
+2019-04-17 08:48:46:618 - info: [HTTP] --> POST /wd/hub/session/7bfe01e6-6df3-4d1c-b3b5-2b130ed8b4e9/element {"using":"id","value":"com.cgb.android.launcher:id/login_text_view","sessionId":"7bfe01e6-6df3-4d1c-b3b5-2b130ed8b4e9"}
+2019-04-17 08:48:46:619 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_text_view","7bfe01e6-6df3-4d1c-b3b5-2b130ed8b4e9"]
+2019-04-17 08:48:46:620 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-17 08:48:46:620 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-17 08:48:46:620 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2019-04-17 08:48:46:622 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_text_view","context":"","multiple":false}}
+2019-04-17 08:48:46:625 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_text_view","context":"","multiple":false}}
+2019-04-17 08:48:46:627 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-17 08:48:46:627 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-17 08:48:46:629 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_text_view' using 'ID' with the contextId: '' multiple: false
+2019-04-17 08:48:46:630 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_text_view]
+2019-04-17 08:48:46:643 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-04-17 08:48:46:646 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_text_view' using 'ID' with the contextId: '' multiple: false
+2019-04-17 08:48:46:648 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_text_view]
+2019-04-17 08:48:46:670 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2019-04-17 08:48:46:671 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-17 08:48:46:675 - info: [HTTP] <-- POST /wd/hub/session/7bfe01e6-6df3-4d1c-b3b5-2b130ed8b4e9/element 500 56 ms - 164 
