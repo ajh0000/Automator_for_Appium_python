@@ -1,0 +1,15 @@
+2019-04-23 07:12:22:580 - info: [Appium] Welcome to Appium v1.7.1
+2019-04-23 07:12:22:585 - info: [Appium] Non-default server args:
+2019-04-23 07:12:22:585 - info: [Appium]   port: 4700
+2019-04-23 07:12:22:585 - info: [Appium]   bootstrapPort: 4901
+2019-04-23 07:12:22:586 - info: [Appium]   sessionOverride: true
+2019-04-23 07:12:22:586 - info: [Appium]   log: ../log/emulator-5554_log_2019-04-23_15-12-17
+2019-04-23 07:12:22:586 - info: [Appium]   udid: emulator-5554
+2019-04-23 07:12:22:586 - info: [Appium]   noReset: true
+2019-04-23 07:12:22:586 - warn: [Appium] Deprecated server args:
+2019-04-23 07:12:22:586 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"emulator-5554"}'
+2019-04-23 07:12:22:586 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-04-23 07:12:22:587 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-04-23 07:12:22:589 - info: [Appium]   udid: 'emulator-5554'
+2019-04-23 07:12:22:589 - info: [Appium]   noReset: true
+2019-04-23 07:12:22:655 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4700

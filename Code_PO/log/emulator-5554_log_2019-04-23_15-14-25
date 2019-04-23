@@ -1,0 +1,75 @@
+2019-04-23 07:14:30:532 - info: [Appium] Welcome to Appium v1.7.1
+2019-04-23 07:14:30:534 - info: [Appium] Non-default server args:
+2019-04-23 07:14:30:534 - info: [Appium]   port: 4700
+2019-04-23 07:14:30:534 - info: [Appium]   bootstrapPort: 4901
+2019-04-23 07:14:30:534 - info: [Appium]   sessionOverride: true
+2019-04-23 07:14:30:534 - info: [Appium]   log: ../log/emulator-5554_log_2019-04-23_15-14-25
+2019-04-23 07:14:30:534 - info: [Appium]   udid: emulator-5554
+2019-04-23 07:14:30:534 - info: [Appium]   noReset: true
+2019-04-23 07:14:30:535 - warn: [Appium] Deprecated server args:
+2019-04-23 07:14:30:535 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"emulator-5554"}'
+2019-04-23 07:14:30:535 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-04-23 07:14:30:536 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-04-23 07:14:30:537 - info: [Appium]   udid: 'emulator-5554'
+2019-04-23 07:14:30:537 - info: [Appium]   noReset: true
+2019-04-23 07:14:30:604 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2019-04-23 07:14:45:162 - info: [HTTP] --> POST /wd/hub/session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}},"desiredCapabilities":{"platformName":"Android","deviceName":"emulator-5554","app":"../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":"true","newCommandTimeout":"0"}}
+2019-04-23 07:14:45:164 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"emulator-5554","app":"../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":"true","newCommandTimeout":"0"},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}]
+2019-04-23 07:14:45:164 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1556003685164 (15:14:45 GMT+0800 (中国标准时间))
+2019-04-23 07:14:45:167 - info: [Appium] Creating new AndroidDriver (v1.28.1) session
+2019-04-23 07:14:45:167 - info: [Appium] Capabilities:
+2019-04-23 07:14:45:167 - info: [Appium]   platformName: 'Android'
+2019-04-23 07:14:45:167 - info: [Appium]   deviceName: 'emulator-5554'
+2019-04-23 07:14:45:167 - info: [Appium]   app: '../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk'
+2019-04-23 07:14:45:167 - info: [Appium]   appWaitActivity: 'com.mapass.example.activity.MainActivity_'
+2019-04-23 07:14:45:167 - info: [Appium]   noReset: 'true'
+2019-04-23 07:14:45:167 - info: [Appium]   newCommandTimeout: '0'
+2019-04-23 07:14:45:168 - info: [Appium]   udid: 'emulator-5554'
+2019-04-23 07:14:45:173 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2019-04-23 07:14:45:173 - warn: [BaseDriver] Capability 'newCommandTimeout' changed from string ('0') to integer (0). This may cause unexpected behavior
+2019-04-23 07:14:45:177 - info: [BaseDriver] Session created with session id: 9d7406be-6229-436f-87bd-f9b02026afd4
+2019-04-23 07:14:45:177 - info: [debug] [AndroidDriver] Getting Java version
+2019-04-23 07:14:46:099 - info: [AndroidDriver] Java version is: 1.8.0_172
+2019-04-23 07:14:46:101 - info: [ADB] Checking whether adb is present
+2019-04-23 07:14:46:104 - info: [ADB] Using adb.exe from E:\Android\android-sdk-windows\platform-tools\adb.exe
+2019-04-23 07:14:46:104 - info: [AndroidDriver] Retrieving device list
+2019-04-23 07:14:46:104 - info: [debug] [ADB] Trying to find a connected android device
+2019-04-23 07:14:46:105 - info: [debug] [ADB] Getting connected devices...
+2019-04-23 07:14:46:211 - info: [debug] [ADB] 1 device(s) connected
+2019-04-23 07:14:46:211 - info: [AndroidDriver] Using device: emulator-5554
+2019-04-23 07:14:46:212 - info: [ADB] Checking whether adb is present
+2019-04-23 07:14:46:215 - info: [ADB] Using adb.exe from E:\Android\android-sdk-windows\platform-tools\adb.exe
+2019-04-23 07:14:46:216 - info: [debug] [ADB] Setting device id to emulator-5554
+2019-04-23 07:14:46:216 - info: [BaseDriver] Using local app '../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk'
+2019-04-23 07:14:46:217 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2019-04-23 07:14:46:219 - error: [AndroidDriver] Error: Could not find app apk at ../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at AndroidDriver.checkAppPresent$ (../../lib/driver.js:385:11)
+    at tryCatch (D:\nodejs\node_global\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (D:\nodejs\node_global\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (D:\nodejs\node_global\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (D:\nodejs\node_global\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+ Error: Could not find app apk at ../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at AndroidDriver.checkAppPresent$ (../../lib/driver.js:385:11)
+    at tryCatch (D:\nodejs\node_global\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (D:\nodejs\node_global\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (D:\nodejs\node_global\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (D:\nodejs\node_global\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+2019-04-23 07:14:46:219 - info: [debug] [AndroidDriver] Shutting down Android driver
+2019-04-23 07:14:46:219 - info: [debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+2019-04-23 07:14:46:220 - info: [debug] [ADB] Getting connected devices...
+2019-04-23 07:14:46:333 - info: [debug] [ADB] 1 device(s) connected
+2019-04-23 07:14:46:336 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","io.appium.unlock"]
+2019-04-23 07:14:46:831 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2019-04-23 07:14:46:832 - error: [MJSONWP] Encountered internal error running command: Error: Could not find app apk at ../Test_APK/fxjc-app-prod-20180911-debug-signed-new.apk
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at AndroidDriver.checkAppPresent$ (../../lib/driver.js:385:11)
+    at tryCatch (D:\nodejs\node_global\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (D:\nodejs\node_global\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (D:\nodejs\node_global\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (D:\nodejs\node_global\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+2019-04-23 07:14:46:837 - info: [HTTP] <-- POST /wd/hub/session 500 1674 ms - 218 

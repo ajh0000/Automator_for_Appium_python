@@ -1,0 +1,1179 @@
+2018-12-13 09:30:12:340 - info: [Appium] Welcome to Appium v1.7.1
+2018-12-13 09:30:12:342 - info: [Appium] Non-default server args:
+2018-12-13 09:30:12:342 - info: [Appium]   port: 4700
+2018-12-13 09:30:12:342 - info: [Appium]   bootstrapPort: 4905
+2018-12-13 09:30:12:342 - info: [Appium]   sessionOverride: true
+2018-12-13 09:30:12:342 - info: [Appium]   log: E:/Appium/FXJC_Appium_Python/log/emulator-5554_log_2018-12-13_17-30-07
+2018-12-13 09:30:12:342 - info: [Appium]   udid: emulator-5554
+2018-12-13 09:30:12:342 - info: [Appium]   noReset: true
+2018-12-13 09:30:12:343 - warn: [Appium] Deprecated server args:
+2018-12-13 09:30:12:343 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"emulator-5554"}'
+2018-12-13 09:30:12:343 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2018-12-13 09:30:12:343 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-12-13 09:30:12:344 - info: [Appium]   udid: 'emulator-5554'
+2018-12-13 09:30:12:345 - info: [Appium]   noReset: true
+2018-12-13 09:30:12:418 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2018-12-13 09:30:27:277 - info: [HTTP] --> POST /wd/hub/session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}},"desiredCapabilities":{"platformName":"Android","deviceName":"emulator-5554","app":"E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":"true","newCommandTimeout":"0","chromedriverExecutable":"C:/Program Files (x86)/Appium/resources/app/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.exe"}}
+2018-12-13 09:30:27:279 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"emulator-5554","app":"E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":"true","newCommandTimeout":"0","chromedriverExecutable":"C:/Program Files (x86)/Appium/resources/app/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.exe"},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}]
+2018-12-13 09:30:27:281 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1544693427280 (17:30:27 GMT+0800 (中国标准时间))
+2018-12-13 09:30:27:284 - info: [Appium] Creating new AndroidDriver (v1.28.1) session
+2018-12-13 09:30:27:284 - info: [Appium] Capabilities:
+2018-12-13 09:30:27:284 - info: [Appium]   platformName: 'Android'
+2018-12-13 09:30:27:284 - info: [Appium]   deviceName: 'emulator-5554'
+2018-12-13 09:30:27:284 - info: [Appium]   app: 'E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk'
+2018-12-13 09:30:27:284 - info: [Appium]   appWaitActivity: 'com.mapass.example.activity.MainActivity_'
+2018-12-13 09:30:27:284 - info: [Appium]   noReset: 'true'
+2018-12-13 09:30:27:284 - info: [Appium]   newCommandTimeout: '0'
+2018-12-13 09:30:27:284 - info: [Appium]   chromedriverExecutable: 'C:/Program Files (x86)/Appium/resources/app/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.exe'
+2018-12-13 09:30:27:285 - info: [Appium]   udid: 'emulator-5554'
+2018-12-13 09:30:27:290 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2018-12-13 09:30:27:290 - warn: [BaseDriver] Capability 'newCommandTimeout' changed from string ('0') to integer (0). This may cause unexpected behavior
+2018-12-13 09:30:27:293 - info: [BaseDriver] Session created with session id: c8a2e774-6044-479b-a5f1-33a9bdacf0af
+2018-12-13 09:30:27:294 - info: [debug] [AndroidDriver] Getting Java version
+2018-12-13 09:30:27:448 - info: [AndroidDriver] Java version is: 1.8.0_172
+2018-12-13 09:30:27:451 - info: [ADB] Checking whether adb is present
+2018-12-13 09:30:27:453 - info: [ADB] Using adb.exe from E:\Android\android-sdk-windows\platform-tools\adb.exe
+2018-12-13 09:30:27:453 - info: [AndroidDriver] Retrieving device list
+2018-12-13 09:30:27:453 - info: [debug] [ADB] Trying to find a connected android device
+2018-12-13 09:30:27:454 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:27:515 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:27:515 - info: [AndroidDriver] Using device: emulator-5554
+2018-12-13 09:30:27:516 - info: [ADB] Checking whether adb is present
+2018-12-13 09:30:27:517 - info: [ADB] Using adb.exe from E:\Android\android-sdk-windows\platform-tools\adb.exe
+2018-12-13 09:30:27:517 - info: [debug] [ADB] Setting device id to emulator-5554
+2018-12-13 09:30:27:519 - info: [BaseDriver] Using local app 'E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk'
+2018-12-13 09:30:27:519 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-12-13 09:30:27:520 - info: [AndroidDriver] Starting Android session
+2018-12-13 09:30:27:522 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","wait-for-device"]
+2018-12-13 09:30:27:595 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:27:654 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:27:654 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","echo","ping"]
+2018-12-13 09:30:27:720 - info: [debug] [Logcat] Starting logcat capture
+2018-12-13 09:30:27:775 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-12-13 09:30:27:775 - info: [debug] [ADB] Uninstalling and re-installing 'io.appium.settings'
+2018-12-13 09:30:27:776 - info: [debug] [ADB] Uninstalling io.appium.settings
+2018-12-13 09:30:27:776 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-12-13 09:30:27:776 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:27:840 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:27:840 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.settings"]
+2018-12-13 09:30:28:125 - info: [debug] [ADB] App is installed
+2018-12-13 09:30:28:126 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:28:176 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:28:176 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","io.appium.settings"]
+2018-12-13 09:30:28:561 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","uninstall","io.appium.settings"]
+2018-12-13 09:30:28:835 - info: [debug] [ADB] ADB command output: Success
+2018-12-13 09:30:28:835 - info: [ADB] io.appium.settings was successfully uninstalled
+2018-12-13 09:30:28:835 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-12-13 09:30:28:836 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:28:908 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:28:908 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.settings"]
+2018-12-13 09:30:29:063 - info: [debug] [ADB] App is not installed
+2018-12-13 09:30:29:063 - info: [debug] [ADB] App 'D:\nodejs\node_global\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk' not installed. Installing
+2018-12-13 09:30:29:063 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","install","D:\\nodejs\\node_global\\node_modules\\appium\\node_modules\\io.appium.settings\\app\\build\\outputs\\apk\\settings_apk-debug.apk"]
+2018-12-13 09:30:29:384 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:29:433 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:29:433 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.sdk"]
+2018-12-13 09:30:29:509 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 22
+2018-12-13 09:30:29:509 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:30:29:509 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:29:575 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:29:575 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.settings"]
+2018-12-13 09:30:29:658 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:29:712 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:29:712 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+2018-12-13 09:30:29:785 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:30:29:785 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:29:836 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:29:836 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","start","-W","-n","io.appium.settings/.Settings","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-12-13 09:30:30:441 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:30:30:441 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:30:492 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:30:492 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","settings","put","secure","mock_location","1"]
+2018-12-13 09:30:30:857 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-12-13 09:30:30:858 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","install","D:\\nodejs\\node_global\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2018-12-13 09:30:31:122 - info: [ADB] Getting device platform version
+2018-12-13 09:30:31:122 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:31:177 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:31:178 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.release"]
+2018-12-13 09:30:31:250 - info: [debug] [ADB] Current device property 'ro.build.version.release': 5.1.1
+2018-12-13 09:30:31:250 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:31:312 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:31:312 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","wm","size"]
+2018-12-13 09:30:31:673 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:31:744 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:31:744 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.model"]
+2018-12-13 09:30:31:806 - info: [debug] [ADB] Current device property 'ro.product.model': oppo a37m
+2018-12-13 09:30:31:806 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:31:880 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:31:880 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.manufacturer"]
+2018-12-13 09:30:31:952 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': oppo
+2018-12-13 09:30:31:952 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-12-13 09:30:31:953 - info: [ADB] Checking whether aapt is present
+2018-12-13 09:30:31:955 - info: [ADB] Using aapt.exe from E:\Android\android-sdk-windows\build-tools\27.0.3\aapt.exe
+2018-12-13 09:30:31:955 - info: [ADB] Extracting package and launch activity from manifest
+2018-12-13 09:30:31:983 - info: [debug] [ADB] badging package: com.cs_credit_bank
+2018-12-13 09:30:31:983 - info: [debug] [ADB] badging act: com.alipay.mobile.quinox.LauncherActivity
+2018-12-13 09:30:31:983 - info: [debug] [AndroidDriver] Parsed package and activity are: com.cs_credit_bank/com.alipay.mobile.quinox.LauncherActivity
+2018-12-13 09:30:32:195 - info: [AndroidDriver] Remote apk path is /data/local/tmp/27f1544eb12675643b16872244b529fb.apk
+2018-12-13 09:30:32:196 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:32:244 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:32:244 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ls","/data/local/tmp/27f1544eb12675643b16872244b529fb.apk"]
+2018-12-13 09:30:32:311 - info: [debug] [AndroidDriver] Checking if app is installed
+2018-12-13 09:30:32:311 - info: [debug] [ADB] Getting install status for com.cs_credit_bank
+2018-12-13 09:30:32:311 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:32:370 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:32:371 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","com.cs_credit_bank"]
+2018-12-13 09:30:32:513 - info: [debug] [ADB] App is installed
+2018-12-13 09:30:32:514 - info: [debug] [AndroidDriver] Extracting strings from apk E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk null C:\Users\86962\AppData\Local\Temp\com.cs_credit_bank
+2018-12-13 09:30:32:514 - info: [debug] [ADB] Extracting strings for language: default
+2018-12-13 09:30:32:515 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:30:32:515 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:32:563 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:32:564 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","persist.sys.language"]
+2018-12-13 09:30:32:654 - info: [debug] [ADB] Current device property 'persist.sys.language': zh
+2018-12-13 09:30:33:247 - info: [debug] [ADB] No strings.xml for language 'zh', getting default strings.xml
+2018-12-13 09:30:33:871 - info: [debug] [ADB] Reading strings from converted strings.json
+2018-12-13 09:30:33:923 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","C:\\Users\\86962\\AppData\\Local\\Temp\\com.cs_credit_bank\\strings.json","/data/local/tmp"]
+2018-12-13 09:30:33:994 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-12-13 09:30:33:995 - info: [debug] [ADB] Forwarding system: 4905 to device: 4724
+2018-12-13 09:30:33:995 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","forward","tcp:4905","tcp:4724"]
+2018-12-13 09:30:34:004 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-12-13 09:30:34:005 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-12-13 09:30:34:005 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-12-13 09:30:34:005 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-12-13 09:30:34:005 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","D:\\nodejs\\node_global\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2018-12-13 09:30:34:102 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-12-13 09:30:34:103 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-12-13 09:30:34:103 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:34:151 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:34:151 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+2018-12-13 09:30:34:227 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-12-13 09:30:34:227 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-12-13 09:30:34:227 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.cs_credit_bank","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-12-13 09:30:34:441 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-12-13 09:30:34:449 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-12-13 09:30:34:450 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:34:459 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-12-13 09:30:34:501 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:34:501 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","window"]
+2018-12-13 09:30:34:583 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-12-13 09:30:34:584 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:30:34:584 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:34:634 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:34:634 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","start","-W","-n","com.cs_credit_bank/com.alipay.mobile.quinox.LauncherActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-12-13 09:30:37:061 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.cs_credit_bank' and activity: 'com.mapass.example.activity.MainActivity_' to be focused
+2018-12-13 09:30:37:061 - info: [debug] [ADB] Possible activities, to be checked: 'com.mapass.example.activity.MainActivity_'
+2018-12-13 09:30:37:062 - info: [debug] [ADB] Getting focused package and activity
+2018-12-13 09:30:37:062 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:37:126 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:37:127 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","window","windows"]
+2018-12-13 09:30:37:213 - info: [debug] [ADB] Found package: 'com.cs_credit_bank' and fully qualified activity name : 'com.mapass.example.activity.MainActivity_'
+2018-12-13 09:30:37:214 - info: [Appium] New AndroidDriver session created successfully, session c8a2e774-6044-479b-a5f1-33a9bdacf0af added to master session list
+2018-12-13 09:30:37:214 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1544693437214 (17:30:37 GMT+0800 (中国标准时间))
+2018-12-13 09:30:37:215 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","app":"E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":true,"newCommandTimeout":0,"chromedriverExecutable":"C:/Program Files (x86)/Appium/resources/app/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.exe","udid":"emulator-5554"},"platformName":"Android","deviceName":"emulator-5554","app":"E:/Appium/FXJC_Appium_Python/Test_APK/fxjc-app-prod-20180911-debug-signed.apk","appWaitActivity":"com.mapass.example.activity.MainActivity_","noReset":true,"newCommandTimeout":0,"chromedriverExecutable":"C:/Program Files (x86)/Appium/resources/app/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.ex...
+2018-12-13 09:30:37:219 - info: [HTTP] <-- POST /wd/hub/session 200 9939 ms - 1388 
+2018-12-13 09:30:47:230 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_text_view","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:47:232 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_text_view","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:47:232 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:47:233 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:47:233 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:30:47:235 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_text_view","context":"","multiple":false}}
+2018-12-13 09:30:47:237 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_text_view","context":"","multiple":false}}
+2018-12-13 09:30:47:242 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:47:243 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:30:47:244 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_text_view' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:47:245 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_text_view]
+2018-12-13 09:30:47:251 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-12-13 09:30:47:255 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_text_view' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:47:255 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_text_view]
+2018-12-13 09:30:47:269 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-12-13 09:30:47:269 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:47:274 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 500 42 ms - 164 
+2018-12-13 09:30:47:304 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:30:47:305 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:47:305 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:30:48:266 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:30:48:337 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:30:48:339 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:30:48:655 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC3yWBd3/8c/vuq+dNw4OQXAg4QABQzzkAQ85kPRR8cBLEU0NKkWy8h9qhaCoqRWgIipJJYjHRHx8KZr6qOQRxEAnjyCCYsLiPE5jG9vu+/r9uUeruQfkRkGGfN9v8y0QEREREZGUBIiIiIiISMoCREREREQkZQEiIiIiIpKyABERERERSVmAiIiIiIikLEBERERERFIWICIiIiIiKQsQEREREZGUBYiIiIiISMoCREREREQkZQEiIiIiIpKyABERERERSVmAiIiIiIikLEBERERERFIWICIiIiIiKQsQEREREZGUBYiIiIiISMoCREREREQkZQEiIiIiIpKyABERERERSVmAiIiIiIikLEBERERERFIWICIiIiIiKQsQEREREZGUBYiIiIiISMoCREREREQkZQEiIiIiIpKyABERERERSVmAiIiIiIikLEBERERERFIWICIiIiIiKQsQEREREZGUBYiIiIiISMoCREREREQkZQEiIiIiIpKyABERERERSVmAiIiIiIikLEBERERERFIWICIiIiIiKQsQEREREZGUBYiIiIiISMoCREREREQkZQEiIiIiIpKyABERERERSVmAiIiIiIikLEBERERERFIWICIiIiIiKQsQEREREZGUBYiIiIiISMoCREREREQkZQEiIiIiIpKyABERERERSVmAiIiIiIikLEBERERERFIWICIiIiIiKQsREREREWlEKioqKCkpYeHChdTXqVMnCgoKyM7OZk8KERERERFpBGbMmMH7779PcXExX6RHjx706NGD4447jj0hduMWiIjsI6ZMmcIDDzxAFEUUFhZS37Jly8jLy6MxGzx4MGPGjKFr164UFBSwIxdddBHjxo3j4IMP5qCDDuKrWrduHa+99hpTp07l/vvv55BDDqFFixZsS1VVFWPGjKFdu3Y0bdoUEZHtWbp0KePGjeONN95gxYoV...
+2018-12-13 09:30:48:661 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 1356 ms - 860298 
+2018-12-13 09:30:48:696 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/iv_close","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:48:697 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/iv_close","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:48:698 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:48:698 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:48:698 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:30:48:699 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/iv_close","context":"","multiple":false}}
+2018-12-13 09:30:48:700 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/iv_close","context":"","multiple":false}}
+2018-12-13 09:30:48:700 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:48:700 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:30:48:701 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/iv_close' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:48:702 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/iv_close]
+2018-12-13 09:30:48:713 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-12-13 09:30:48:714 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/iv_close' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:48:714 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/iv_close]
+2018-12-13 09:30:48:745 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-12-13 09:30:48:745 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:48:748 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 500 51 ms - 164 
+2018-12-13 09:30:48:760 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/iv_close","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:48:760 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/iv_close","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:48:761 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:48:761 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:48:761 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:30:48:761 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/iv_close","context":"","multiple":false}}
+2018-12-13 09:30:48:763 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/iv_close","context":"","multiple":false}}
+2018-12-13 09:30:48:764 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:48:764 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:30:48:764 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/iv_close' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:48:764 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/iv_close]
+2018-12-13 09:30:48:772 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-12-13 09:30:48:773 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/iv_close' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:48:773 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/iv_close]
+2018-12-13 09:30:48:784 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-12-13 09:30:48:784 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:48:786 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 500 26 ms - 164 
+2018-12-13 09:30:48:813 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/rb_me","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:48:813 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/rb_me","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:48:814 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:48:814 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:48:814 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:30:48:814 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/rb_me","context":"","multiple":false}}
+2018-12-13 09:30:48:817 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/rb_me","context":"","multiple":false}}
+2018-12-13 09:30:48:819 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:48:819 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:30:48:819 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/rb_me' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:48:819 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/rb_me]
+2018-12-13 09:30:48:976 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2018-12-13 09:30:48:976 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:48:977 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+2018-12-13 09:30:48:978 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 164 ms - 87 
+2018-12-13 09:30:48:989 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/1/click {"id":"1","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:48:989 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["1","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:48:989 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2018-12-13 09:30:48:991 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2018-12-13 09:30:48:993 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:48:993 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-12-13 09:30:50:153 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:30:50:153 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:50:153 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-12-13 09:30:50:154 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/1/click 200 1164 ms - 76 
+2018-12-13 09:30:50:166 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/tv_title_text","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:50:166 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/tv_title_text","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:50:167 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:50:167 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:50:167 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:30:50:167 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/tv_title_text","context":"","multiple":false}}
+2018-12-13 09:30:50:175 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/tv_title_text","context":"","multiple":false}}
+2018-12-13 09:30:50:175 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:50:175 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:30:50:175 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/tv_title_text' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:50:175 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/tv_title_text]
+2018-12-13 09:30:50:836 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-12-13 09:30:50:838 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/tv_title_text' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:50:838 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/tv_title_text]
+2018-12-13 09:30:50:876 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-12-13 09:30:50:877 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:50:878 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 500 711 ms - 164 
+2018-12-13 09:30:50:903 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_text_view","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:50:903 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_text_view","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:50:904 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:50:904 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:50:904 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:30:50:905 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_text_view","context":"","multiple":false}}
+2018-12-13 09:30:50:908 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_text_view","context":"","multiple":false}}
+2018-12-13 09:30:50:908 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:50:908 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:30:50:908 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_text_view' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:50:908 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_text_view]
+2018-12-13 09:30:50:915 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2018-12-13 09:30:50:915 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:50:915 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"2"}
+2018-12-13 09:30:50:916 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 12 ms - 87 
+2018-12-13 09:30:50:927 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/2/click {"id":"2","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:50:928 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["2","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:50:928 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2018-12-13 09:30:50:930 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2018-12-13 09:30:50:930 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:50:930 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-12-13 09:30:51:299 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:30:51:299 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:51:299 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-12-13 09:30:51:300 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/2/click 200 372 ms - 76 
+2018-12-13 09:30:56:311 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_text_view","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:56:312 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_text_view","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:56:312 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:56:312 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:56:312 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:30:56:313 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_text_view","context":"","multiple":false}}
+2018-12-13 09:30:56:315 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_text_view","context":"","multiple":false}}
+2018-12-13 09:30:56:315 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:56:315 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:30:56:315 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_text_view' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:56:315 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_text_view]
+2018-12-13 09:30:56:324 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-12-13 09:30:56:324 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_text_view' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:56:326 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_text_view]
+2018-12-13 09:30:56:335 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-12-13 09:30:56:336 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:56:338 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 500 26 ms - 164 
+2018-12-13 09:30:56:370 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/get_captcha_tips_txt","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:56:371 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/get_captcha_tips_txt","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:56:371 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:56:371 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:56:371 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:30:56:371 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/get_captcha_tips_txt","context":"","multiple":false}}
+2018-12-13 09:30:56:373 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/get_captcha_tips_txt","context":"","multiple":false}}
+2018-12-13 09:30:56:373 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:56:373 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:30:56:374 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/get_captcha_tips_txt' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:56:374 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/get_captcha_tips_txt]
+2018-12-13 09:30:56:376 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2018-12-13 09:30:56:376 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:56:377 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"3"}
+2018-12-13 09:30:56:377 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 6 ms - 87 
+2018-12-13 09:30:56:386 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/3/click {"id":"3","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:56:386 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["3","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:56:387 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2018-12-13 09:30:56:389 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2018-12-13 09:30:56:389 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:56:389 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-12-13 09:30:56:650 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:30:56:650 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:56:650 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-12-13 09:30:56:650 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/3/click 200 264 ms - 76 
+2018-12-13 09:30:56:664 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/tv_login_fast","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:56:665 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/tv_login_fast","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:56:665 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:56:665 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:30:56:665 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:30:56:665 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/tv_login_fast","context":"","multiple":false}}
+2018-12-13 09:30:56:668 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/tv_login_fast","context":"","multiple":false}}
+2018-12-13 09:30:56:668 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:56:668 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:30:56:668 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/tv_login_fast' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:30:56:668 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/tv_login_fast]
+2018-12-13 09:30:57:232 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2018-12-13 09:30:57:233 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:57:233 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"4"}
+2018-12-13 09:30:57:234 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 570 ms - 87 
+2018-12-13 09:30:57:248 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/4/click {"id":"4","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:30:57:248 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["4","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:30:57:248 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2018-12-13 09:30:57:250 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2018-12-13 09:30:57:250 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:30:57:250 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-12-13 09:30:57:501 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:30:57:501 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-12-13 09:30:57:502 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/4/click 200 254 ms - 76 
+2018-12-13 09:30:57:503 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:02:516 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/tv_login_fast","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:02:516 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/tv_login_fast","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:02:517 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:02:517 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:02:517 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:31:02:517 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/tv_login_fast","context":"","multiple":false}}
+2018-12-13 09:31:02:520 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/tv_login_fast","context":"","multiple":false}}
+2018-12-13 09:31:02:520 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:02:521 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:31:02:521 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/tv_login_fast' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:31:02:521 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/tv_login_fast]
+2018-12-13 09:31:02:531 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-12-13 09:31:02:531 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/tv_login_fast' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:31:02:532 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/tv_login_fast]
+2018-12-13 09:31:02:543 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:02:545 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 500 29 ms - 164 
+2018-12-13 09:31:02:546 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-12-13 09:31:02:572 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_user_edt","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:02:572 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_user_edt","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:02:573 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:02:573 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:02:573 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:31:02:573 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_user_edt","context":"","multiple":false}}
+2018-12-13 09:31:02:575 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_user_edt","context":"","multiple":false}}
+2018-12-13 09:31:02:576 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:02:576 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:31:02:576 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_user_edt' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:31:02:576 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_user_edt]
+2018-12-13 09:31:02:581 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"5"}}
+2018-12-13 09:31:02:581 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:02:581 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"5"}
+2018-12-13 09:31:02:582 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 8 ms - 87 
+2018-12-13 09:31:02:593 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/5/value {"text":"18064667821","value":["1","8","0","6","4","6","6","7","8","2","1"],"id":"5","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:02:593 - info: [debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["1","8","0","6","4","6","6","7","8","2","1"],"5","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:02:594 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"5","text":"18064667821","replace":false}}
+2018-12-13 09:31:02:596 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"5","text":"18064667821","replace":false}}
+2018-12-13 09:31:02:596 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:02:596 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2018-12-13 09:31:02:598 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 5
+2018-12-13 09:31:02:602 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2018-12-13 09:31:04:903 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2018-12-13 09:31:04:908 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2018-12-13 09:31:04:908 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: 18064667821
+2018-12-13 09:31:07:225 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:07:225 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:07:225 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: true
+2018-12-13 09:31:07:227 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/5/value 200 4634 ms - 76 
+2018-12-13 09:31:07:241 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_password","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:07:241 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_password","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:07:242 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:07:242 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:07:242 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:31:07:242 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_password","context":"","multiple":false}}
+2018-12-13 09:31:07:246 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_password","context":"","multiple":false}}
+2018-12-13 09:31:07:246 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:07:246 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:31:07:246 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_password' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:31:07:246 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_password]
+2018-12-13 09:31:07:800 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+2018-12-13 09:31:07:800 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:07:801 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"6"}
+2018-12-13 09:31:07:801 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 561 ms - 87 
+2018-12-13 09:31:07:813 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/6/value {"text":"11111","value":["1","1","1","1","1"],"id":"6","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:07:813 - info: [debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["1","1","1","1","1"],"6","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:07:813 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"6","text":"11111","replace":false}}
+2018-12-13 09:31:07:816 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"6","text":"11111","replace":false}}
+2018-12-13 09:31:07:817 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:07:817 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2018-12-13 09:31:07:817 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 6
+2018-12-13 09:31:07:857 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2018-12-13 09:31:10:147 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: 11111
+2018-12-13 09:31:12:466 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:12:467 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: true
+2018-12-13 09:31:12:468 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/6/value 200 4655 ms - 76 
+2018-12-13 09:31:12:468 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:12:482 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_main_btn","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:12:483 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_main_btn","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:12:483 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:12:483 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:12:483 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:31:12:483 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_main_btn","context":"","multiple":false}}
+2018-12-13 09:31:12:486 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_main_btn","context":"","multiple":false}}
+2018-12-13 09:31:12:486 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:12:486 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:31:12:486 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_main_btn' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:31:12:486 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_main_btn]
+2018-12-13 09:31:13:055 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+2018-12-13 09:31:13:055 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:13:055 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"7"}
+2018-12-13 09:31:13:056 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 573 ms - 87 
+2018-12-13 09:31:13:069 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/7/click {"id":"7","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:13:070 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["7","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:13:070 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"7"}}
+2018-12-13 09:31:13:072 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"7"}}
+2018-12-13 09:31:13:072 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:13:072 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-12-13 09:31:16:181 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:16:181 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-12-13 09:31:16:181 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/7/click 200 3112 ms - 76 
+2018-12-13 09:31:16:182 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:16:193 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_main_btn","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:16:193 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_main_btn","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:16:194 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:16:194 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:16:194 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:31:16:194 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_main_btn","context":"","multiple":false}}
+2018-12-13 09:31:16:196 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_main_btn","context":"","multiple":false}}
+2018-12-13 09:31:16:196 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:16:196 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:31:16:196 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_main_btn' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:31:16:196 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_main_btn]
+2018-12-13 09:31:16:198 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:16:199 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"8"}
+2018-12-13 09:31:16:199 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 6 ms - 87 
+2018-12-13 09:31:16:199 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"8"}}
+2018-12-13 09:31:16:226 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:31:16:226 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:16:226 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:31:16:602 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:31:16:668 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:31:16:669 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:31:16:883 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AABoIklEQVR4AezBC3zNheP/8df57OxiFzbGTKw0RIRcYrnEd90nSqkv+XJWbiGJKHQvScmlXJMsTSpFRRdUcj1UJLHJvZE1u53ZzWbb+f8+38fj/H77nf/Gh+jLr/fzaXP/F0RERERExBIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDKD8+yFF14gISGBc5WQkMALL7yAiIiIiPy1yrKyKD32O3J6ds6jF154gaNHj3L06FFMDoeDs5GQkIDT6cT0wgsv8NRTTyEiIiLyd5T+QH/cubnUWroMb+7CQlJv6kpA+xiqT5nGmRSs/Iwqt96OzW7ndFwvvUDRjz8Q+d1GziR34QLKsrKo+tAwbIGBVOTEvDkUbXVSffJr+NSsiRVZ48ZS...
+2018-12-13 09:31:16:885 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 659 ms - 45802 
+2018-12-13 09:31:21:897 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_user_edt","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:21:897 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_user_edt","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:21:898 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:21:898 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:21:898 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:31:21:898 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_user_edt","context":"","multiple":false}}
+2018-12-13 09:31:21:902 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_user_edt","context":"","multiple":false}}
+2018-12-13 09:31:21:902 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:21:902 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:31:21:902 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_user_edt' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:31:21:903 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_user_edt]
+2018-12-13 09:31:21:903 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:21:903 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"9"}}
+2018-12-13 09:31:21:904 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"9"}
+2018-12-13 09:31:21:904 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 8 ms - 87 
+2018-12-13 09:31:21:915 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/9/value {"text":"18064667820","value":["1","8","0","6","4","6","6","7","8","2","0"],"id":"9","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:21:916 - info: [debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["1","8","0","6","4","6","6","7","8","2","0"],"9","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:21:916 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"9","text":"18064667820","replace":false}}
+2018-12-13 09:31:21:920 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"9","text":"18064667820","replace":false}}
+2018-12-13 09:31:21:920 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:21:920 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2018-12-13 09:31:21:920 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 9
+2018-12-13 09:31:21:923 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2018-12-13 09:31:25:140 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2018-12-13 09:31:25:144 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2018-12-13 09:31:25:145 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: 18064667820
+2018-12-13 09:31:27:515 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:27:516 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: true
+2018-12-13 09:31:27:517 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/9/value 200 5601 ms - 76 
+2018-12-13 09:31:27:518 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:27:531 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_password","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:27:532 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_password","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:27:532 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:27:532 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:27:532 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:31:27:532 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_password","context":"","multiple":false}}
+2018-12-13 09:31:27:534 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_password","context":"","multiple":false}}
+2018-12-13 09:31:27:535 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:27:535 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:31:27:535 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_password' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:31:27:535 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_password]
+2018-12-13 09:31:28:110 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"10"}}
+2018-12-13 09:31:28:110 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:28:111 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"10"}
+2018-12-13 09:31:28:112 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 580 ms - 88 
+2018-12-13 09:31:28:123 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/10/value {"text":"1235qwer","value":["1","2","3","5","q","w","e","r"],"id":"10","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:28:124 - info: [debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["1","2","3","5","q","w","e","r"],"10","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:28:124 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"10","text":"1235qwer","replace":false}}
+2018-12-13 09:31:28:126 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"10","text":"1235qwer","replace":false}}
+2018-12-13 09:31:28:126 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:28:126 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2018-12-13 09:31:28:126 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 10
+2018-12-13 09:31:28:130 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2018-12-13 09:31:30:513 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: 1235qwer
+2018-12-13 09:31:32:833 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:32:833 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:32:834 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: true
+2018-12-13 09:31:32:835 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/10/value 200 4711 ms - 76 
+2018-12-13 09:31:32:847 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_main_btn","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:32:847 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_main_btn","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:32:848 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:32:848 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:32:848 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:31:32:848 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_main_btn","context":"","multiple":false}}
+2018-12-13 09:31:32:850 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_main_btn","context":"","multiple":false}}
+2018-12-13 09:31:32:851 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:32:852 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:31:32:852 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_main_btn' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:31:32:852 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_main_btn]
+2018-12-13 09:31:33:409 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"11"}}
+2018-12-13 09:31:33:409 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:33:409 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"11"}
+2018-12-13 09:31:33:410 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 563 ms - 88 
+2018-12-13 09:31:33:421 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/11/click {"id":"11","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:33:422 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["11","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:33:422 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"11"}}
+2018-12-13 09:31:33:423 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"11"}}
+2018-12-13 09:31:33:424 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:33:424 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-12-13 09:31:36:543 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:36:543 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:36:544 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-12-13 09:31:36:544 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/11/click 200 3123 ms - 76 
+2018-12-13 09:31:36:555 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_main_btn","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:36:555 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_main_btn","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:36:556 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:36:556 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:36:556 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:31:36:556 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_main_btn","context":"","multiple":false}}
+2018-12-13 09:31:36:559 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_main_btn","context":"","multiple":false}}
+2018-12-13 09:31:36:559 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:36:561 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:31:36:562 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_main_btn' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:31:36:562 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_main_btn]
+2018-12-13 09:31:36:562 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:36:562 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"12"}}
+2018-12-13 09:31:36:562 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"12"}
+2018-12-13 09:31:36:563 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 7 ms - 88 
+2018-12-13 09:31:36:599 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:31:36:599 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:36:600 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:31:36:920 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:31:36:994 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:31:36:994 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:31:37:210 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AABoL0lEQVR4AezBC3zNheP/8df57OxiFzbGTKw0RIRcYrnEd90nSqkv+XJWbiGJKHQvScmlXJMsTSpFRRdUcj1UJLHJvZE1u53ZzWbb+f8+38fj/H77nf/Gh+jLr/fzaXP/F0RERERExBIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDKD8+yFF14gISGBc5WQkMALL7yAiIiIiPy1yrKyKD32O3J6ds6jF154gaNHj3L06FFMDoeDs5GQkIDT6cT0wgsv8NRTTyEiIiLyd5T+QH/cubnUWroMb+7CQlJv6kpA+xiqT5nGmRSs/Iwqt96OzW7ndFwvvUDRjz8Q+d1GziR34QLKsrKo+tAwbIGBVOTEvDkUbXVSffJr+NSsiRVZ48ZS...
+2018-12-13 09:31:37:212 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 612 ms - 46978 
+2018-12-13 09:31:42:227 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_user_edt","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:42:228 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_user_edt","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:42:228 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:42:228 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:42:228 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:31:42:229 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_user_edt","context":"","multiple":false}}
+2018-12-13 09:31:42:231 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_user_edt","context":"","multiple":false}}
+2018-12-13 09:31:42:231 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:42:231 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:31:42:231 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_user_edt' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:31:42:232 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_user_edt]
+2018-12-13 09:31:42:239 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"13"}}
+2018-12-13 09:31:42:239 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:42:239 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"13"}
+2018-12-13 09:31:42:240 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 12 ms - 88 
+2018-12-13 09:31:42:251 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/13/value {"text":"18064667888","value":["1","8","0","6","4","6","6","7","8","8","8"],"id":"13","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:42:251 - info: [debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["1","8","0","6","4","6","6","7","8","8","8"],"13","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:42:252 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"13","text":"18064667888","replace":false}}
+2018-12-13 09:31:42:254 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"13","text":"18064667888","replace":false}}
+2018-12-13 09:31:42:254 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:42:254 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2018-12-13 09:31:42:254 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 13
+2018-12-13 09:31:42:257 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2018-12-13 09:31:45:447 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2018-12-13 09:31:45:450 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2018-12-13 09:31:45:452 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: 18064667888
+2018-12-13 09:31:47:784 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:47:784 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:47:784 - info: [debug] [MJSONWP] Responding to client with driver.setValue() result: true
+2018-12-13 09:31:47:785 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/13/value 200 5534 ms - 76 
+2018-12-13 09:31:47:798 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_password","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:47:798 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_password","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:47:800 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:47:800 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:31:47:800 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:31:47:800 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_password","context":"","multiple":false}}
+2018-12-13 09:31:47:801 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_password","context":"","multiple":false}}
+2018-12-13 09:31:47:801 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:47:801 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:31:47:801 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_password' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:31:47:802 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_password]
+2018-12-13 09:31:48:361 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"14"}}
+2018-12-13 09:31:48:361 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:48:362 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"14"}
+2018-12-13 09:31:48:362 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 563 ms - 88 
+2018-12-13 09:31:48:373 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/14/click {"id":"14","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:48:373 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["14","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:48:373 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"14"}}
+2018-12-13 09:31:48:375 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"14"}}
+2018-12-13 09:31:48:375 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:48:376 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-12-13 09:31:48:509 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:48:509 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-12-13 09:31:48:510 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/14/click 200 136 ms - 76 
+2018-12-13 09:31:48:510 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:48:522 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:31:48:523 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:48:523 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:31:48:888 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:31:48:949 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:31:48:949 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:31:49:197 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC3zNheP/8df57OxiFzbGTKw0RIRcYrnEd90nSqkv+XJWbiGJKHQvScmlXJMsTSpFRRdUcj1UJLHJvZE1u53ZzWbb+f8+38fj/H77nf/Gh+jLr/fzaXP/F0RERERExBIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDKD8+yFF14gISGBc5WQkMALL7yAiIiIiPy1yrKyKD32O3J6ds6jF154gaNHj3L06FFMDoeDs5GQkIDT6cT0wgsv8NRTTyEiIiLyd5T+QH/cubnUWroMb+7CQlJv6kpA+xiqT5nGmRSs/Iwqt96OzW7ndFwvvUDRjz8Q+d1GziR34QLKsrKo+tAwbIGBVOTEvDkUbXVSffJr+NSsiRVZ48ZS...
+2018-12-13 09:31:49:198 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 675 ms - 70014 
+2018-12-13 09:31:49:214 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:31:49:214 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:49:214 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:31:49:541 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:31:49:613 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:31:49:613 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:31:49:863 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC3zNheP/8df57OxiFzbGTKw0RIRcYrnEd90nSqkv+XJWbiGJKHQvScmlXJMsTSpFRRdUcj1UJLHJvZE1u53ZzWbb+f8+38fj/H77nf/Gh+jLr/fzaXP/F0RERERExBIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDKD8+yFF14gISGBc5WQkMALL7yAiIiIiPy1yrKyKD32O3J6ds6jF154gaNHj3L06FFMDoeDs5GQkIDT6cT0wgsv8NRTTyEiIiLyd5T+QH/cubnUWroMb+7CQlJv6kpA+xiqT5nGmRSs/Iwqt96OzW7ndFwvvUDRjz8Q+d1GziR34QLKsrKo+tAwbIGBVOTEvDkUbXVSffJr+NSsiRVZ48ZS...
+2018-12-13 09:31:49:865 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 650 ms - 70038 
+2018-12-13 09:31:49:879 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:31:49:879 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:49:879 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:49:881 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:49:881 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:49:882 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:31:49:882 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:49:882 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:31:49:882 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:31:49:882 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:31:49:893 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:31:49:893 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:49:893 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:49:895 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:49:895 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:49:895 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:31:49:897 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:31:49:897 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:49:897 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:31:49:898 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 5 ms - 99 
+2018-12-13 09:31:50:345 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform {"actions":[{"action":"longPress","options":{"x":359,"y":921,"duration":20}},{"action":"release","options":{}}],"sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:50:346 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"longPress","options":{"x":359,"y":921,"duration":20}},{"action":"release","options":{}}],"c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:50:350 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchLongClick","params":{"x":359,"y":921,"duration":20}}
+2018-12-13 09:31:50:352 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchLongClick","params":{"x":359,"y":921,"duration":20}}
+2018-12-13 09:31:50:352 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:50:352 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchLongClick
+2018-12-13 09:31:50:353 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2018-12-13 09:31:50:354 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchLongClick using element? false x: 359, y: 921, duration: 20
+2018-12-13 09:31:50:379 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:50:379 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:50:380 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-12-13 09:31:50:382 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform 200 36 ms - 76 
+2018-12-13 09:31:52:392 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:31:52:392 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:52:393 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:31:52:731 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:31:52:779 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:31:52:780 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:31:53:043 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC3zNheP/8df57OxiFzbGTKw0RIRcYrnEd90nSqkv+XJWbiGJKHQvScmlXJMsTSpFRRdUcj1UJLHJvZE1u53ZzWbb+f8+38fj/H77nf/Gh+jLr/fzaXP/F0RERERExBIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDKD8+yFF14gISGBc5WQkMALL7yAiIiIiPy1yrKyKD32O3J6ds6jF154gaNHj3L06FFMDoeDs5GQkIDT6cT0wgsv8NRTTyEiIiLyd5T+QH/cubnUWroMb+7CQlJv6kpA+xiqT5nGmRSs/Iwqt96OzW7ndFwvvUDRjz8Q+d1GziR34QLKsrKo+tAwbIGBVOTEvDkUbXVSffJr+NSsiRVZ48ZS...
+2018-12-13 09:31:53:045 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 651 ms - 65506 
+2018-12-13 09:31:53:059 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:31:53:060 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:53:060 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:53:061 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:53:062 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:53:062 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:31:53:062 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:53:062 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:31:53:063 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:31:53:064 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:31:53:073 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:31:53:074 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:53:074 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:53:076 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:53:076 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:53:076 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:31:53:076 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:31:53:077 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:53:077 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:31:53:078 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:31:53:142 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform {"actions":[{"action":"longPress","options":{"x":360,"y":1024,"duration":20}},{"action":"release","options":{}}],"sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:53:142 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"longPress","options":{"x":360,"y":1024,"duration":20}},{"action":"release","options":{}}],"c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:53:143 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchLongClick","params":{"x":360,"y":1024,"duration":20}}
+2018-12-13 09:31:53:145 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchLongClick","params":{"x":360,"y":1024,"duration":20}}
+2018-12-13 09:31:53:145 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:53:145 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchLongClick
+2018-12-13 09:31:53:146 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2018-12-13 09:31:53:146 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchLongClick using element? false x: 360, y: 1024, duration: 20
+2018-12-13 09:31:53:169 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:53:169 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:53:169 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-12-13 09:31:53:170 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform 200 28 ms - 76 
+2018-12-13 09:31:55:181 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:31:55:181 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:55:181 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:31:55:512 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:31:55:574 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:31:55:575 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:31:55:799 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC3zNheP/8df57OxiFzbGTKw0RIRcYrnEd90nSqkv+XJWbiGJKHQvScmlXJMsTSpFRRdUcj1UJLHJvZE1u53ZzWbb+f8+38fj/H77nf/Gh+jLr/fzaXP/F0RERERExBIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDKD8+yFF14gISGBc5WQkMALL7yAiIiIiPy1yrKyKD32O3J6ds6jF154gaNHj3L06FFMDoeDs5GQkIDT6cT0wgsv8NRTTyEiIiLyd5T+QH/cubnUWroMb+7CQlJv6kpA+xiqT5nGmRSs/Iwqt96OzW7ndFwvvUDRjz8Q+d1GziR34QLKsrKo+tAwbIGBVOTEvDkUbXVSffJr+NSsiRVZ48ZS...
+2018-12-13 09:31:55:801 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 619 ms - 65650 
+2018-12-13 09:31:55:853 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:31:55:854 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:55:854 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:55:855 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:55:856 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:55:856 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:31:55:856 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:55:856 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:31:55:856 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:31:55:857 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:31:55:869 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:31:55:869 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:55:869 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:55:871 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:55:871 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:55:871 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:31:55:872 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:31:55:872 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:55:873 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:31:55:874 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 5 ms - 99 
+2018-12-13 09:31:55:979 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform {"actions":[{"action":"longPress","options":{"x":119,"y":921,"duration":20}},{"action":"release","options":{}}],"sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:55:979 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"longPress","options":{"x":119,"y":921,"duration":20}},{"action":"release","options":{}}],"c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:55:980 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchLongClick","params":{"x":119,"y":921,"duration":20}}
+2018-12-13 09:31:55:982 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchLongClick","params":{"x":119,"y":921,"duration":20}}
+2018-12-13 09:31:55:982 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:55:982 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchLongClick
+2018-12-13 09:31:55:983 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2018-12-13 09:31:55:983 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchLongClick using element? false x: 119, y: 921, duration: 20
+2018-12-13 09:31:56:005 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:56:005 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:56:006 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-12-13 09:31:56:007 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform 200 27 ms - 76 
+2018-12-13 09:31:58:020 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:31:58:020 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:58:021 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:31:58:340 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:31:58:397 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:31:58:397 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:31:58:621 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC3zNheP/8df57OxiFzbGTKw0RIRcYrnEd90nSqkv+XJWbiGJKHQvScmlXJMsTSpFRRdUcj1UJLHJvZE1u53ZzWbb+f8+38fj/H77nf/Gh+jLr/fzaXP/F0RERERExBIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDKD8+yFF14gISGBc5WQkMALL7yAiIiIiPy1yrKyKD32O3J6ds6jF154gaNHj3L06FFMDoeDs5GQkIDT6cT0wgsv8NRTTyEiIiLyd5T+QH/cubnUWroMb+7CQlJv6kpA+xiqT5nGmRSs/Iwqt96OzW7ndFwvvUDRjz8Q+d1GziR34QLKsrKo+tAwbIGBVOTEvDkUbXVSffJr+NSsiRVZ48ZS...
+2018-12-13 09:31:58:622 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 602 ms - 65794 
+2018-12-13 09:31:58:637 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:31:58:637 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:58:638 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:58:640 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:58:640 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:58:640 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:31:58:696 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:58:696 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:31:58:696 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:31:58:697 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 59 ms - 99 
+2018-12-13 09:31:58:707 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:31:58:707 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:58:707 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:58:709 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:31:58:710 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:58:710 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:31:58:711 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:58:711 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:31:58:711 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:31:58:712 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:31:58:774 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform {"actions":[{"action":"longPress","options":{"x":121,"y":1024,"duration":20}},{"action":"release","options":{}}],"sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:31:58:774 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"longPress","options":{"x":121,"y":1024,"duration":20}},{"action":"release","options":{}}],"c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:31:58:775 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchLongClick","params":{"x":121,"y":1024,"duration":20}}
+2018-12-13 09:31:58:777 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchLongClick","params":{"x":121,"y":1024,"duration":20}}
+2018-12-13 09:31:58:777 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:31:58:777 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchLongClick
+2018-12-13 09:31:58:777 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2018-12-13 09:31:58:777 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchLongClick using element? false x: 121, y: 1024, duration: 20
+2018-12-13 09:31:58:800 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:31:58:800 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:31:58:801 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-12-13 09:31:58:801 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform 200 27 ms - 76 
+2018-12-13 09:32:00:813 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:32:00:813 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:00:813 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:32:01:126 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:32:01:183 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:32:01:184 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:32:01:446 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC3zNheP/8df57OxiFzbGTKw0RIRcYrnEd90nSqkv+XJWbiGJKHQvScmlXJMsTSpFRRdUcj1UJLHJvZE1u53ZzWbb+f8+38fj/H77nf/Gh+jLr/fzaXP/F0RERERExBIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDKD8+yFF14gISGBc5WQkMALL7yAiIiIiPy1yrKyKD32O3J6ds6jF154gaNHj3L06FFMDoeDs5GQkIDT6cT0wgsv8NRTTyEiIiLyd5T+QH/cubnUWroMb+7CQlJv6kpA+xiqT5nGmRSs/Iwqt96OzW7ndFwvvUDRjz8Q+d1GziR34QLKsrKo+tAwbIGBVOTEvDkUbXVSffJr+NSsiRVZ48ZS...
+2018-12-13 09:32:01:449 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 635 ms - 65938 
+2018-12-13 09:32:01:461 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:01:463 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:01:463 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:01:463 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:01:464 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:01:464 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:01:465 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:01:465 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:01:465 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:01:466 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:32:01:476 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:01:477 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:01:477 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:01:479 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:01:479 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:01:479 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:01:480 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:01:480 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:01:481 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:32:01:481 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:01:544 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:01:544 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:01:544 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:01:546 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:01:547 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:01:547 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:01:547 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:01:548 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:01:548 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:01:549 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:32:01:557 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:01:559 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:01:559 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:01:560 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:01:560 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:01:560 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:01:562 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:01:562 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:01:562 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:32:01:562 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:01:644 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform {"actions":[{"action":"longPress","options":{"x":121,"y":1231,"duration":20}},{"action":"release","options":{}}],"sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:32:01:644 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"longPress","options":{"x":121,"y":1231,"duration":20}},{"action":"release","options":{}}],"c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:01:645 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchLongClick","params":{"x":121,"y":1231,"duration":20}}
+2018-12-13 09:32:01:647 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchLongClick","params":{"x":121,"y":1231,"duration":20}}
+2018-12-13 09:32:01:647 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:01:647 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchLongClick
+2018-12-13 09:32:01:648 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2018-12-13 09:32:01:649 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchLongClick using element? false x: 121, y: 1231, duration: 20
+2018-12-13 09:32:01:675 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:32:01:675 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:01:675 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-12-13 09:32:01:676 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform 200 32 ms - 76 
+2018-12-13 09:32:03:685 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:32:03:685 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:03:685 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:32:04:026 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:32:04:080 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:32:04:080 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:32:04:295 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC3zNheP/8df57OxiFzbGTKw0RIRcYrnEd90nSqkv+XJWbiGJKHQvScmlXJMsTSpFRRdUcj1UJLHJvZE1u53ZzWbb+f8+38fj/H77nf/Gh+jLr/fzaXP/F0RERERExBIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDKD8+yFF14gISGBc5WQkMALL7yAiIiIiPy1yrKyKD32O3J6ds6jF154gaNHj3L06FFMDoeDs5GQkIDT6cT0wgsv8NRTTyEiIiLyd5T+QH/cubnUWroMb+7CQlJv6kpA+xiqT5nGmRSs/Iwqt96OzW7ndFwvvUDRjz8Q+d1GziR34QLKsrKo+tAwbIGBVOTEvDkUbXVSffJr+NSsiRVZ48ZS...
+2018-12-13 09:32:04:296 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 611 ms - 78070 
+2018-12-13 09:32:04:309 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:04:309 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:04:309 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:04:312 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:04:312 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:04:312 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:04:312 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:04:371 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:04:371 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:04:372 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 63 ms - 99 
+2018-12-13 09:32:04:385 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:04:385 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:04:386 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:04:388 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:04:388 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:04:388 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:04:389 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:04:389 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:04:389 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:04:390 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:32:04:461 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform {"actions":[{"action":"longPress","options":{"x":36,"y":925,"duration":20}},{"action":"release","options":{}}],"sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:32:04:462 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"longPress","options":{"x":36,"y":925,"duration":20}},{"action":"release","options":{}}],"c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:04:462 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchLongClick","params":{"x":36,"y":925,"duration":20}}
+2018-12-13 09:32:04:464 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchLongClick","params":{"x":36,"y":925,"duration":20}}
+2018-12-13 09:32:04:464 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:04:464 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchLongClick
+2018-12-13 09:32:04:465 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2018-12-13 09:32:04:465 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchLongClick using element? false x: 36, y: 925, duration: 20
+2018-12-13 09:32:04:488 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:04:488 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-12-13 09:32:04:490 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform 200 28 ms - 76 
+2018-12-13 09:32:04:491 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:32:06:503 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:32:06:503 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:06:503 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:32:06:833 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:32:06:903 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:32:06:904 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:32:07:116 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC3zNheP/8df57OxiFzbGTKw0RIRcYrnEd90nSqkv+XJWbiGJKHQvScmlXJMsTSpFRRdUcj1UJLHJvZE1u53ZzWbb+f8+38fj/H77nf/Gh+jLr/fzaXP/F0RERERExBIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDKD8+yFF14gISGBc5WQkMALL7yAiIiIiPy1yrKyKD32O3J6ds6jF154gaNHj3L06FFMDoeDs5GQkIDT6cT0wgsv8NRTTyEiIiLyd5T+QH/cubnUWroMb+7CQlJv6kpA+xiqT5nGmRSs/Iwqt96OzW7ndFwvvUDRjz8Q+d1GziR34QLKsrKo+tAwbIGBVOTEvDkUbXVSffJr+NSsiRVZ48ZS...
+2018-12-13 09:32:07:119 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 614 ms - 78238 
+2018-12-13 09:32:07:134 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:07:134 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:07:135 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:07:136 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:07:136 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:07:136 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:07:139 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:07:139 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:07:139 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:07:140 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 6 ms - 99 
+2018-12-13 09:32:07:156 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:07:156 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:07:156 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:07:158 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:07:158 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:07:159 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:07:159 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:07:160 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:07:160 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:07:160 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:32:07:231 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform {"actions":[{"action":"longPress","options":{"x":108,"y":923,"duration":20}},{"action":"release","options":{}}],"sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:32:07:232 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"longPress","options":{"x":108,"y":923,"duration":20}},{"action":"release","options":{}}],"c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:07:232 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchLongClick","params":{"x":108,"y":923,"duration":20}}
+2018-12-13 09:32:07:235 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchLongClick","params":{"x":108,"y":923,"duration":20}}
+2018-12-13 09:32:07:235 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:07:235 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchLongClick
+2018-12-13 09:32:07:236 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2018-12-13 09:32:07:236 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchLongClick using element? false x: 108, y: 923, duration: 20
+2018-12-13 09:32:07:260 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:32:07:260 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:07:260 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-12-13 09:32:07:261 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform 200 29 ms - 76 
+2018-12-13 09:32:09:272 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:32:09:272 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:09:273 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:32:09:586 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:32:09:654 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:32:09:654 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:32:09:868 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC3zNheP/8df57OxiFzbGTKw0RIRcYrnEd90nSqkv+XJWbiGJKHQvScmlXJMsTSpFRRdUcj1UJLHJvZE1u53ZzWbb+f8+38fj/H77nf/Gh+jLr/fzaXP/F0RERERExBIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDKD8+yFF14gISGBc5WQkMALL7yAiIiIiPy1yrKyKD32O3J6ds6jF154gaNHj3L06FFMDoeDs5GQkIDT6cT0wgsv8NRTTyEiIiLyd5T+QH/cubnUWroMb+7CQlJv6kpA+xiqT5nGmRSs/Iwqt96OzW7ndFwvvUDRjz8Q+d1GziR34QLKsrKo+tAwbIGBVOTEvDkUbXVSffJr+NSsiRVZ48ZS...
+2018-12-13 09:32:09:869 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 597 ms - 78378 
+2018-12-13 09:32:09:884 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:09:884 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:09:884 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:09:886 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:09:886 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:09:886 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:09:887 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:09:888 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:09:888 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:09:888 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:32:09:899 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:09:900 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:09:900 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:09:900 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:09:901 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:09:901 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:09:902 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:09:902 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:09:903 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 3 ms - 99 
+2018-12-13 09:32:09:903 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:09:964 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform {"actions":[{"action":"longPress","options":{"x":181,"y":925,"duration":20}},{"action":"release","options":{}}],"sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:32:09:964 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"longPress","options":{"x":181,"y":925,"duration":20}},{"action":"release","options":{}}],"c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:09:966 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchLongClick","params":{"x":181,"y":925,"duration":20}}
+2018-12-13 09:32:09:969 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchLongClick","params":{"x":181,"y":925,"duration":20}}
+2018-12-13 09:32:09:969 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:09:969 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchLongClick
+2018-12-13 09:32:09:970 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2018-12-13 09:32:09:970 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchLongClick using element? false x: 181, y: 925, duration: 20
+2018-12-13 09:32:09:995 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:32:09:995 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:09:995 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-12-13 09:32:09:996 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform 200 31 ms - 76 
+2018-12-13 09:32:12:006 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:32:12:006 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:12:007 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:32:12:318 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:32:12:386 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:32:12:386 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:32:12:600 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC3zNheP/8df57OxiFzbGTKw0RIRcYrnEd90nSqkv+XJWbiGJKHQvScmlXJMsTSpFRRdUcj1UJLHJvZE1u53ZzWbb+f8+38fj/H77nf/Gh+jLr/fzaXP/F0RERERExBIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDIDERERERGxzEBERERERCwzEBERERERywxERERERMQyAxERERERscxAREREREQsMxAREREREcsMRERERETEMgMREREREbHMQERERERELDMQERERERHLDERERERExDKD8+yFF14gISGBc5WQkMALL7yAiIiIiPy1yrKyKD32O3J6ds6jF154gaNHj3L06FFMDoeDs5GQkIDT6cT0wgsv8NRTTyEiIiLyd5T+QH/cubnUWroMb+7CQlJv6kpA+xiqT5nGmRSs/Iwqt96OzW7ndFwvvUDRjz8Q+d1GziR34QLKsrKo+tAwbIGBVOTEvDkUbXVSffJr+NSsiRVZ48ZS...
+2018-12-13 09:32:12:606 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 599 ms - 78498 
+2018-12-13 09:32:12:619 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:12:620 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:12:621 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:12:623 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:12:623 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:12:623 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:12:626 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:12:626 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:12:626 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:12:627 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 7 ms - 99 
+2018-12-13 09:32:12:639 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:12:639 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:12:640 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:12:641 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:12:642 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:12:642 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:12:644 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:12:644 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:12:644 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:12:645 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 6 ms - 99 
+2018-12-13 09:32:12:709 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform {"actions":[{"action":"longPress","options":{"x":250,"y":923,"duration":20}},{"action":"release","options":{}}],"sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:32:12:709 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"longPress","options":{"x":250,"y":923,"duration":20}},{"action":"release","options":{}}],"c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:12:709 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:touchLongClick","params":{"x":250,"y":923,"duration":20}}
+2018-12-13 09:32:12:711 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchLongClick","params":{"x":250,"y":923,"duration":20}}
+2018-12-13 09:32:12:711 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:12:712 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchLongClick
+2018-12-13 09:32:12:713 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2018-12-13 09:32:12:713 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchLongClick using element? false x: 250, y: 923, duration: 20
+2018-12-13 09:32:12:736 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:32:12:736 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:12:736 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+2018-12-13 09:32:12:737 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/touch/perform 200 28 ms - 76 
+2018-12-13 09:32:14:748 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_main_btn","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:32:14:749 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_main_btn","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:14:749 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:32:14:749 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:32:14:750 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:32:14:750 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_main_btn","context":"","multiple":false}}
+2018-12-13 09:32:14:752 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_main_btn","context":"","multiple":false}}
+2018-12-13 09:32:14:752 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:14:752 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:32:14:752 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_main_btn' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:32:14:752 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_main_btn]
+2018-12-13 09:32:14:757 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"15"}}
+2018-12-13 09:32:14:757 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:14:758 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"15"}
+2018-12-13 09:32:14:758 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 200 9 ms - 88 
+2018-12-13 09:32:14:768 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/15/click {"id":"15","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:32:14:769 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["15","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:14:769 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"15"}}
+2018-12-13 09:32:14:772 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"15"}}
+2018-12-13 09:32:14:772 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:14:772 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-12-13 09:32:15:057 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-12-13 09:32:15:057 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:15:059 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-12-13 09:32:15:060 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element/15/click 200 291 ms - 76 
+2018-12-13 09:32:15:074 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_main_btn","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:32:15:074 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_main_btn","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:15:075 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:32:15:075 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:32:15:075 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:32:15:075 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_main_btn","context":"","multiple":false}}
+2018-12-13 09:32:15:077 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_main_btn","context":"","multiple":false}}
+2018-12-13 09:32:15:078 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:15:078 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:32:15:078 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_main_btn' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:32:15:078 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_main_btn]
+2018-12-13 09:32:15:606 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-12-13 09:32:15:606 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_main_btn' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:32:15:606 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_main_btn]
+2018-12-13 09:32:15:975 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:15:976 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 500 902 ms - 164 
+2018-12-13 09:32:15:976 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-12-13 09:32:16:008 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:32:16:009 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:16:009 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:32:16:339 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:32:16:390 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:32:16:390 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:32:16:611 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBWXSUh2H//e/zzKLRaN9HYrSwChmwh8VmNXYCNsbYcUKcNMdN0vRtL3J6kfveJGl70Ztc5Zz/TU4uHDdxqf9vXQi2IcbYGBsDZhuxSJhVy4BGC5JGaEazz3sev2dSRRHwAJID4ff5GD/72c9yiIiIiIiILSYiIiIiImKbiYiIiIiI2GYiIiIiIiK2mYiIiIiIiG0mIiIiIiJim5MZsHTpUl599VVmwptvvsmFCxcQEREREXkQObkPpmny05/+lJn02muvYfmXf/kXcrkcIiIiIjL7fvCDH1BRUcFko6Oj7Nmzh8HBQeR/ObkPP/3pT5ktP/vZz/j5z3+OiIiIyGzz+Xz4fD58Ph8+n4+pwuEw4XCYcDhMOBzmr1FFRQWVlZVMZhgGLpcL+VNO7tGqVauYbfPmzePKlSuIiIiIzDSfz0cgEGDx4sWUl5dzOy0tLeSNjo5y/vx5gsEg4XCYmeRwOKirq8PhcHArmUyG/v5+MpkM9+MHP/gBFRUV5JWVlTFVaWkpf/M3f0Mmk8EyOjrKG2+8waPOyT166aWXmG0//OEP+fnPf46IiIjITGlpaeHZZ5+lpaWFe1FeXs6aNWtYs2YNXV1dHDhwgK6uLu6Gz+djYmKCSCRCnsPhwO/34/F4uJNsNks4HOZ+VFRUUFlZye04HA7KysrIMwwDASciIiIij4Dy8nJeeOEFFi9ezExpaWnhRz/6EefPn2fv3r2Mjo5yJ16vl7KyMsrKyrBEIhEsDQ0NeDwe7HC5XDzKPB4PVVVVpFIpBgYGuBOn00l1dTWGYTAwMEAmk+F+OBERERH5K9fS0sL3vvc9PB4Ps2Hx4sW0tLSwY8cOurq6uJ1YLEY4HMbn8+Hz+bBEIhEGBgZobGzE4XDwl9DX18fVq1dJJpNM1tTURGNjIy6Xi3v1/PPPs2rVKm7l0qVLvPXWW9xJS0sLX/va1/D7/TgcDiyx...
+2018-12-13 09:32:16:618 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 609 ms - 66630 
+2018-12-13 09:32:21:632 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_user_edt","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:32:21:632 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_user_edt","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:21:633 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:32:21:633 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:32:21:633 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:32:21:633 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_user_edt","context":"","multiple":false}}
+2018-12-13 09:32:21:635 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_user_edt","context":"","multiple":false}}
+2018-12-13 09:32:21:635 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:21:635 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:32:21:635 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_user_edt' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:32:21:635 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_user_edt]
+2018-12-13 09:32:21:639 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-12-13 09:32:21:639 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_user_edt' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:32:21:639 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_user_edt]
+2018-12-13 09:32:21:643 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:21:645 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 500 13 ms - 164 
+2018-12-13 09:32:21:646 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-12-13 09:32:21:657 - info: [HTTP] --> POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element {"using":"id","value":"com.cgb.android.launcher:id/login_password","sessionId":"c8a2e774-6044-479b-a5f1-33a9bdacf0af"}
+2018-12-13 09:32:21:657 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.cgb.android.launcher:id/login_password","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:21:657 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:32:21:657 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-13 09:32:21:657 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-12-13 09:32:21:658 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_password","context":"","multiple":false}}
+2018-12-13 09:32:21:660 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.cgb.android.launcher:id/login_password","context":"","multiple":false}}
+2018-12-13 09:32:21:660 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:21:660 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-13 09:32:21:660 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_password' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:32:21:661 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_password]
+2018-12-13 09:32:21:666 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-12-13 09:32:21:667 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.cgb.android.launcher:id/login_password' using 'ID' with the contextId: '' multiple: false
+2018-12-13 09:32:21:667 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.cgb.android.launcher:id/login_password]
+2018-12-13 09:32:21:673 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:21:674 - info: [HTTP] <-- POST /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/element 500 16 ms - 164 
+2018-12-13 09:32:21:674 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-12-13 09:32:21:684 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:32:21:685 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:21:685 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:32:22:067 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:32:22:139 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:32:22:139 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:32:22:386 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBWXSUh2H//e/zzKLRaN9HYrSwChmwh8VmNXYCNsbYcUKcNMdN0vRtL3J6kfveJGl70Ztc5Zz/TU4uHDdxqf9vXQi2IcbYGBsDZhuxSJhVy4BGC5JGaEazz3sev2dSRRHwAJID4ff5GD/72c9yiIiIiIiILSYiIiIiImKbiYiIiIiI2GYiIiIiIiK2mYiIiIiIiG0mIiIiIiJim5MZsHTpUl599VVmwptvvsmFCxcQEREREXkQObkPpmny05/+lJn02muvYfmXf/kXcrkcIiIiIjL7fvCDH1BRUcFko6Oj7Nmzh8HBQeR/ObkPP/3pT5ktP/vZz/j5z3+OiIiIyGzz+Xz4fD58Ph8+n4+pwuEw4XCYcDhMOBzmr1FFRQWVlZVMZhgGLpcL+VNO7tGqVauYbfPmzePKlSuIiIiIzDSfz0cgEGDx4sWUl5dzOy0tLeSNjo5y/vx5gsEg4XCYmeRwOKirq8PhcHArmUyG/v5+MpkM9+MHP/gBFRUV5JWVlTFVaWkpf/M3f0Mmk8EyOjrKG2+8waPOyT166aWXmG0//OEP+fnPf46IiIjITGlpaeHZZ5+lpaWFe1FeXs6aNWtYs2YNXV1dHDhwgK6uLu6Gz+djYmKCSCRCnsPhwO/34/F4uJNsNks4HOZ+VFRUUFlZye04HA7KysrIMwwDASciIiIij4Dy8nJeeOEFFi9ezExpaWnhRz/6EefPn2fv3r2Mjo5yJ16vl7KyMsrKyrBEIhEsDQ0NeDwe7HC5XDzKPB4PVVVVpFIpBgYGuBOn00l1dTWGYTAwMEAmk+F+OBERERH5K9fS0sL3vvc9PB4Ps2Hx4sW0tLSwY8cOurq6uJ1YLEY4HMbn8+Hz+bBEIhEGBgZobGzE4XDwl9DX18fVq1dJJpNM1tTURGNjIy6Xi3v1/PPPs2rVKm7l0qVLvPXWW9xJS0sLX/va1/D7/TgcDiyx...
+2018-12-13 09:32:22:388 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 702 ms - 66630 
+2018-12-13 09:32:22:402 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot {}
+2018-12-13 09:32:22:402 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:22:403 - info: [debug] [ADB] Device API level: 22
+2018-12-13 09:32:22:738 - info: [debug] [ADB] Getting connected devices...
+2018-12-13 09:32:22:800 - info: [debug] [ADB] 1 device(s) connected
+2018-12-13 09:32:22:802 - info: [debug] [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","input"]
+2018-12-13 09:32:23:011 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBWXSUh2H//e/zzKLRaN9HYrSwChmwh8VmNXYCNsbYcUKcNMdN0vRtL3J6kfveJGl70Ztc5Zz/TU4uHDdxqf9vXQi2IcbYGBsDZhuxSJhVy4BGC5JGaEazz3sev2dSRRHwAJID4ff5GD/72c9yiIiIiIiILSYiIiIiImKbiYiIiIiI2GYiIiIiIiK2mYiIiIiIiG0mIiIiIiJim5MZsHTpUl599VVmwptvvsmFCxcQEREREXkQObkPpmny05/+lJn02muvYfmXf/kXcrkcIiIiIjL7fvCDH1BRUcFko6Oj7Nmzh8HBQeR/ObkPP/3pT5ktP/vZz/j5z3+OiIiIyGzz+Xz4fD58Ph8+n4+pwuEw4XCYcDhMOBzmr1FFRQWVlZVMZhgGLpcL+VNO7tGqVauYbfPmzePKlSuIiIiIzDSfz0cgEGDx4sWUl5dzOy0tLeSNjo5y/vx5gsEg4XCYmeRwOKirq8PhcHArmUyG/v5+MpkM9+MHP/gBFRUV5JWVlTFVaWkpf/M3f0Mmk8EyOjrKG2+8waPOyT166aWXmG0//OEP+fnPf46IiIjITGlpaeHZZ5+lpaWFe1FeXs6aNWtYs2YNXV1dHDhwgK6uLu6Gz+djYmKCSCRCnsPhwO/34/F4uJNsNks4HOZ+VFRUUFlZye04HA7KysrIMwwDASciIiIij4Dy8nJeeOEFFi9ezExpaWnhRz/6EefPn2fv3r2Mjo5yJ16vl7KyMsrKyrBEIhEsDQ0NeDwe7HC5XDzKPB4PVVVVpFIpBgYGuBOn00l1dTWGYTAwMEAmk+F+OBERERH5K9fS0sL3vvc9PB4Ps2Hx4sW0tLSwY8cOurq6uJ1YLEY4HMbn8+Hz+bBEIhEGBgZobGzE4XDwl9DX18fVq1dJJpNM1tTURGNjIy6Xi3v1/PPPs2rVKm7l0qVLvPXWW9xJS0sLX/va1/D7/TgcDiyx...
+2018-12-13 09:32:23:013 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/screenshot 200 611 ms - 66630 
+2018-12-13 09:32:23:067 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:23:068 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:23:068 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:23:070 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:23:070 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:23:070 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:23:070 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:23:070 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:23:071 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:23:072 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 4 ms - 99 
+2018-12-13 09:32:23:083 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:23:084 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:23:084 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:23:086 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:23:086 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:23:086 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:23:086 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:23:086 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:23:087 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 3 ms - 99 
+2018-12-13 09:32:23:087 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:23:152 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:23:152 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:23:152 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:23:154 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:23:154 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:23:154 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:23:154 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:23:155 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2018-12-13 09:32:23:155 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:23:155 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 3 ms - 99 
+2018-12-13 09:32:23:166 - info: [HTTP] --> GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size {}
+2018-12-13 09:32:23:166 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","c8a2e774-6044-479b-a5f1-33a9bdacf0af"]
+2018-12-13 09:32:23:167 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:23:169 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-12-13 09:32:23:169 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-13 09:32:23:169 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-12-13 09:32:23:171 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-12-13 09:32:23:171 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1280,"width":720}
+2018-12-13 09:32:23:171 - info: [HTTP] <-- GET /wd/hub/session/c8a2e774-6044-479b-a5f1-33a9bdacf0af/window/current/size 200 5 ms - 99 
+2018-12-13 09:32:23:171 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
