@@ -6,16 +6,18 @@ import time
 from appium import webdriver
 import unittest
 #import HtmlTestRunner	#1.1.2版本
-import HTMLTestRunnerCN   #0.8.2版本
+import HTMLTestRunner   #0.8.2版本
 
 # import threading  #多线程
 import multiprocessing   #多进程
 from utils.server import Server
 from utils.write_user_command import WriteUserCommand
 
-from business.login_business import LoginBusiness
-from business.setup_business import SetupBusiness
-from business.tools_business import ToolsBusiness
+from business.login_business import LoginBusiness      #登录功能
+from business.setup_business import SetupBusiness      #设置功能
+from business.tools_business import ToolsBusiness      #常用工具
+from business.cards_business import CardsBusiness      #用卡服务
+from business.service_business import ServiceBusiness  #卡片服务
 
 
 
@@ -24,7 +26,6 @@ class ParameTestCase(unittest.TestCase):
 		super(ParameTestCase,self).__init__(methodName)
 		global parames
 		parames = parame
-		
 
 class CaseTest(ParameTestCase):
 
@@ -49,6 +50,8 @@ class CaseTest(ParameTestCase):
 		cls.login_business = LoginBusiness(driver)
 		cls.setup_business = SetupBusiness(driver)
 		cls.tools_business = ToolsBusiness(driver)
+		cls.cards_business = CardsBusiness(driver)
+		cls.service_business = ServiceBusiness(driver)
 		CaseTest.case_num = 0
 	'''
 	setUp(): 每次执行测试用例之前调用。无参数，无返回值。
@@ -179,8 +182,181 @@ class CaseTest(ParameTestCase):
 		self.tools_business.tools_card_func()
 		print('Case%s is Pass'%CaseTest.case_num)
 
-
-
+	#----------用卡服务功能测试------------
+	def Cards_Virtual_Func(self):
+		"""用卡服务-虚拟卡测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.cards_business.cards_virtual_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+	
+	def Cards_Attach_Func(self):
+		"""用卡服务-附属卡测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.cards_business.cards_attach_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+	
+	def Cards_Rely_Func(self):
+		"""用卡服务-靠谱值测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.cards_business.cards_rely_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+	
+	def Cards_Active_Func(self):
+		"""用卡服务-卡片激活测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.cards_business.cards_active_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+	
+	def Cards_Apply_Func(self):
+		"""用卡服务-卡片申请测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.cards_business.cards_apply_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+	
+	def Cards_Progress_Func(self):
+		"""用卡服务-进度查询测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.cards_business.cards_progress_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+		
+	def Cards_Nocard_Func(self):
+		"""用卡服务-无卡付测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.cards_business.cards_nocard_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+	
+	
+	#----------卡片服务功能测试------------
+	# 优惠券
+	def Service_Coupon_Func(self):
+		"""卡片服务-进入优惠券测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_coupon_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+	
+	def Service_Coupon_Coupon_Func(self):
+		"""卡片服务-优惠券-优惠券测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_coupon_coupon_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+	
+	def Service_Coupon_Shop_Func(self):
+		"""卡片服务-优惠券-商城券测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_coupon_shop_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+		
+	def Service_Coupon_Active_Func(self):
+		"""卡片服务-优惠券-活动券测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_coupon_active_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+		
+	# 订单
+	def Service_Order_Func(self):
+		"""卡片服务-进入订单测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_order_func()
+		print('Case%s is Pass'%CaseTest.case_num)	
+		
+	def Service_Order_Shop_Func(self):
+		"""卡片服务-订单-商城订单测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_order_shop_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+		
+	def Service_Order_Meal_Func(self):
+		"""卡片服务-订单-饭票订单测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_order_meal_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+		
+	def Service_Order_Scan_Func(self):
+		"""卡片服务-订单-扫码付支付凭证测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_order_scan_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+		
+	def Service_Order_Discount_Func(self):
+		"""卡片服务-订单-优惠支付凭证测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_order_discount_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+		
+	# 积分
+	def Service_Score_Func(self):
+		"""卡片服务-积分测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_score_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+		
+	# 我的活动
+	def Service_Myactive_Func(self):
+		"""卡片服务-我的活动测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_Myactive_func()
+		print('Case%s is Pass'%CaseTest.case_num)	
+		
+	# 发哒钱包
+	def Service_Wallet_Func(self):
+		"""卡片服务-发哒钱包测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_wallet_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+		
+	# 奖品
+	def Service_Prize_Func(self):
+		"""卡片服务-奖品测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_prize_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+		
+	# 我的权益
+	def Service_Right_Func(self):
+		"""卡片服务-我的权益测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_right_func()
+		print('Case%s is Pass'%CaseTest.case_num)	
+		
+	# 签帐额
+	def Service_Sign_Func(self):
+		"""卡片服务-签帐额测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_sign_func()
+		print('Case%s is Pass'%CaseTest.case_num)		
+		
+	# 我的返现
+	def Service_Return_Func(self):
+		"""卡片服务-我的返现测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.service_business.service_return_func()
+		print('Case%s is Pass'%CaseTest.case_num)	
+		
+					
+		
 	'''
 	tearDown(): 每次执行测试用例之后调用。无参数，无返回值。
 	测试方法抛出异常，该方法也正常调用，该方法抛出的异常都视为error，而不是测试不通过。
@@ -237,7 +413,41 @@ def get_suite():
 	suite.addTest(CaseTest('Tools_Limit_Func'))
 	suite.addTest(CaseTest('Tools_Card_Func'))
 	
+	#-----------用卡服务功能测试---------------
+	suite.addTest(CaseTest('Cards_Virtual_Func'))
+	suite.addTest(CaseTest('Cards_Attach_Func'))
+	suite.addTest(CaseTest('Cards_Rely_Func'))
+	suite.addTest(CaseTest('Cards_Active_Func'))
+	suite.addTest(CaseTest('Cards_Apply_Func'))
+	suite.addTest(CaseTest('Cards_Progress_Func'))
+	suite.addTest(CaseTest('Cards_Nocard_Func'))
 	
+	#-----------卡片服务功能测试---------------
+	# 优惠券
+	suite.addTest(CaseTest('Service_Coupon_Func'))
+	suite.addTest(CaseTest('Service_Coupon_Coupon_Func'))
+	suite.addTest(CaseTest('Service_Coupon_Shop_Func'))
+	suite.addTest(CaseTest('Service_Coupon_Active_Func'))
+	# 订单
+	suite.addTest(CaseTest('Service_Order_Func'))
+	suite.addTest(CaseTest('Service_Order_Shop_Func'))
+	suite.addTest(CaseTest('Service_Order_Meal_Func'))
+	suite.addTest(CaseTest('Service_Order_Scan_Func'))
+	suite.addTest(CaseTest('Service_Order_Discount_Func'))
+	# 积分
+	suite.addTest(CaseTest('Service_Score_Func'))
+	# 我的活动
+	suite.addTest(CaseTest('Service_Myactive_Func'))
+	# 发哒钱包
+	suite.addTest(CaseTest('Service_Wallet_Func'))
+	# 奖品
+	suite.addTest(CaseTest('Service_Prize_Func'))
+	# 我的权益
+	suite.addTest(CaseTest('Service_Right_Func'))
+	# 签帐额
+	suite.addTest(CaseTest('Service_Sign_Func'))
+	# 我的返现
+	suite.addTest(CaseTest('Service_Return_Func'))
 	
 	# unittest.TextTestRunner().run(suite)
 
@@ -257,7 +467,7 @@ def get_suite():
 	desc = u'用例执行情况：'
 
 	with open(report_path, 'wb') as report:
-		runner = HTMLTestRunnerCN.HTMLTestReportCN(stream=report, title=report_title, description=desc, tester = 'Howie')
+		runner = HTMLTestRunner.HTMLTestReport(stream=report, title=report_title, description=desc, tester = 'Howie')
 		runner.run(suite)
 
 	# 关闭report，脚本结束
