@@ -18,6 +18,8 @@ from business.setup_business import SetupBusiness      #设置功能
 from business.tools_business import ToolsBusiness      #常用工具
 from business.cards_business import CardsBusiness      #用卡服务
 from business.service_business import ServiceBusiness  #卡片服务
+from business.stage_business import StageBusiness      #分期
+from business.finance_business import FinanceBusiness  #金融生活
 
 
 
@@ -52,6 +54,8 @@ class CaseTest(ParameTestCase):
 		cls.tools_business = ToolsBusiness(driver)
 		cls.cards_business = CardsBusiness(driver)
 		cls.service_business = ServiceBusiness(driver)
+		cls.stage_business = StageBusiness(driver)
+		cls.finance_business = FinanceBusiness(driver)
 		CaseTest.case_num = 0
 	'''
 	setUp(): 每次执行测试用例之前调用。无参数，无返回值。
@@ -355,8 +359,122 @@ class CaseTest(ParameTestCase):
 		self.service_business.service_return_func()
 		print('Case%s is Pass'%CaseTest.case_num)	
 		
-					
+	#----------分期------------
+	# 进入分期
+	def Stage_Enter_Func(self):
+		"""分期-进入分期测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_enter_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+	
+	#进入金融订单
+	def Stage_Finance_Order_Func(self):
+		"""分期-进入金融订单测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_finance_order_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+	
+	#金融订单——分期产品
+	def Stage_Finance_Order_Prod_Func(self):
+		"""分期-金融订单-进入分期产品测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_finance_order_prod_func()
+		print('Case%s is Pass'%CaseTest.case_num)	
 		
+	#金融订单——Free贷
+	def Stage_Finance_Order_Free_Func(self):
+		"""分期-金融订单-进入Free贷测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_finance_order_Free_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+		
+	#金融订单——商户分期
+	def Stage_Finance_Order_BusiStage_Func(self):
+		"""分期-金融订单-进入商户分期测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_finance_order_busiStage_func()
+		print('Case%s is Pass'%CaseTest.case_num)	
+		
+	#金融订单——理财
+	def Stage_Finance_Order_Manage_Func(self):
+		"""分期-金融订单-进入理财测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_finance_order_manage_func()
+		print('Case%s is Pass'%CaseTest.case_num)	
+	
+	#金融订单——保险
+	def Stage_Finance_Order_Insure_Func(self):
+		"""分期-金融订单-进入保险测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_finance_order_insure_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+
+	#分期——我要现金
+	def Stage_MyCash_Func(self):
+		"""分期-进入我要现金测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_myCash_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+
+	#分期——我要分期
+	def Stage_MyStage_Func(self):
+		"""分期-进入我要分期测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_myStage_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+
+	#分期——掌上取现
+	def Stage_PalmCash_Func(self):
+		"""分期-进入掌上取现测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_palmCash_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+
+	#分期——Free贷
+	def Stage_Free_Func(self):
+		"""分期-进入Free贷测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_Free_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+
+	#分期——商户分期
+	def Stage_Business_Func(self):
+		"""分期-进入商户分期测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_business_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+
+	#分期——尊享消费分期
+	def Stage_Special_Stage_Func(self):
+		"""分期-进入尊享消费分期测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.stage_business.stage_special_stage_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+
+	#----------金融生活---------
+	#理财
+	def Finance_Manage_Func(self):
+		"""金融生活-理财测试"""
+		CaseTest.case_num = CaseTest.case_num+1
+		print('this is Case%s'%CaseTest.case_num)
+		self.finance_business.finance_manage_func()
+		print('Case%s is Pass'%CaseTest.case_num)
+
+		
+
 	'''
 	tearDown(): 每次执行测试用例之后调用。无参数，无返回值。
 	测试方法抛出异常，该方法也正常调用，该方法抛出的异常都视为error，而不是测试不通过。
@@ -448,6 +566,44 @@ def get_suite():
 	suite.addTest(CaseTest('Service_Sign_Func'))
 	# 我的返现
 	suite.addTest(CaseTest('Service_Return_Func'))
+	
+	#-----------分期---------------
+	# 进入分期
+	suite.addTest(CaseTest('Stage_Enter_Func'))
+	#金融订单
+	suite.addTest(CaseTest('Stage_Finance_Order_Func'))
+	#金融订单——分期产品
+	suite.addTest(CaseTest('Stage_Finance_Order_Prod_Func'))
+	#金融订单——Free贷
+	suite.addTest(CaseTest('Stage_Finance_Order_Free_Func'))
+	#金融订单——商户分期
+	suite.addTest(CaseTest('Stage_Finance_Order_BusiStage_Func'))
+	#金融订单——理财
+	suite.addTest(CaseTest('Stage_Finance_Order_Manage_Func'))
+	#金融订单——保险
+	suite.addTest(CaseTest('Stage_Finance_Order_Insure_Func'))
+	
+	#我要现金
+	suite.addTest(CaseTest('Stage_MyCash_Func'))
+	#我要分期
+	suite.addTest(CaseTest('Stage_MyStage_Func'))
+	#掌上取现
+	suite.addTest(CaseTest('Stage_PalmCash_Func'))
+	#Free贷
+	suite.addTest(CaseTest('Stage_Free_Func'))
+	#商户分期
+	suite.addTest(CaseTest('Stage_Business_Func'))
+	#尊享消费分期
+	suite.addTest(CaseTest('Stage_Special_Stage_Func'))
+
+	#-----------金融生活---------------
+	#理财
+	suite.addTest(CaseTest('Finance_Manage_Func'))
+	
+	
+	
+	
+	
 	
 	# unittest.TextTestRunner().run(suite)
 
