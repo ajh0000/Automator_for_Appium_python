@@ -5,9 +5,11 @@
 # '''
 
 import sys  # 需要单独使用的时候，加上这个全局路径申明
+
 sys.path.append('D:/Github/Automator_for_Appium_python/Code_PO')
 
 import yaml
+
 
 # with open("../config/userconfig.yaml") as fr:
 # 	data = yaml.load(fr)
